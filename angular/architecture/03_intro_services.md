@@ -53,8 +53,8 @@ Quand Angular découvre qu'un composant à besoin d'un service, il vérifie que 
 
 ## Providing Services
 
-Il faut enregistrer au moins un provider par service que l'on souhaite utiliser.
+Il faut enregistrer au moins un provider par service que l'on souhaite utiliser. Le provider peut être enregistrer dans le service dans ce cas il sera disponible dans toute l'application, ou il peut être enregistrer pour un module ou un composant spécifique. L'enregistrement du 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDEyMTk4MzQsODMzMzk3NTMzLDE3MD
+eyJoaXN0b3J5IjpbLTIwMzA0MjU2ODcsODMzMzk3NTMzLDE3MD
 czOTEyMDMsLTMwMTEwMzMxNV19
 -->
