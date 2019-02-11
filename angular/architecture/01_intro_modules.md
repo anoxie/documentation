@@ -44,7 +44,6 @@ Importation dans l'objet métadata du NgModule:
 imports:      [ BrowserModule ],
 ```
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0Mzc4OTYzXX0=
+eyJoaXN0b3J5IjpbODc2NTcwMzI3LDY2NDM3ODk2M119
 -->
