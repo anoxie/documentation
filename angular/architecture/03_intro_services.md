@@ -75,11 +75,13 @@ Il faut enregistrer au moins un provider par service que l'on souhaite utiliser.
 ```ts
 @Component({
 	selector:	'app-hero-list',
-	templateUrl: '
+	templateUrl: './hero-list.component.html',
+	providers:	[HeroService ]
+})
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Mjg3NDA3OSw4MzMzOTc1MzMsMTcwNz
-M5MTIwMywtMzAxMTAzMzE1XX0=
+eyJoaXN0b3J5IjpbLTE4NTY5NjQ3NDcsODMzMzk3NTMzLDE3MD
+czOTEyMDMsLTMwMTEwMzMxNV19
 -->
