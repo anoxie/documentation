@@ -43,8 +43,12 @@ L'injection de dépendance est très présente dans Angular, elle permet de gard
  Pour toutes les dépendances nécessaire dans une application, il faut renseigner un provider. Pour un service, le provider est généralement la class du service elle-même.
  > Une dépendance n'est pas forcément un service, il peut s'agir d'une valeur, ou d'une fonction.
 
-Exemple :
+Exemple comment injecter une dépendance :
+```ts
+constructor(private service: HeroService) { }
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODc3NDA1OCw4MzMzOTc1MzMsMTcwNz
+eyJoaXN0b3J5IjpbLTk5NjAwMzM1MSw4MzMzOTc1MzMsMTcwNz
 M5MTIwMywtMzAxMTAzMzE1XX0=
 -->
