@@ -55,12 +55,12 @@ Quand Angular découvre qu'un composant à besoin d'un service, il vérifie que 
 
 Il faut enregistrer au moins un provider par service que l'on souhaite utiliser. Le provider peut être enregistrer dans le service dans ce cas il sera disponible dans toute l'application, ou il peut être enregistrer pour un module ou un composant spécifique. L'enregistrement du provider peut se faire dans les métadatas de :
 
-- ==@Injectable==
+- ==@Injectable== : par défaut Angular Cli ```ng generate service```
 - ==@NgModule==
 - ==@Component==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NjYwMzYwLDgzMzM5NzUzMywxNzA3Mz
-kxMjAzLC0zMDExMDMzMTVdfQ==
+eyJoaXN0b3J5IjpbLTE4NTQ1NTU5NzksODMzMzk3NTMzLDE3MD
+czOTEyMDMsLTMwMTEwMzMxNV19
 -->
