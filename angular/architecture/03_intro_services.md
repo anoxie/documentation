@@ -35,7 +35,7 @@ export class HeroService {
 ```
 ## Injection de dépendance
 
-L'injection de dépendance est très présente dans Angular, elle permet de garder des composants léger et donc de rendre le code plus clair. Pour définir une class comme un service dans Angular, il faut utiliser la décoration : ==@Injectable()== . Cette même décoration permet de déclarer une dépendance dans un autre service, pipe ou module.
+L'injection de dépendance est très présente dans Angular, elle permet de garder des composants léger et donc de rendre le code plus clair. Pour définir une class comme un service dans Angular, il faut utiliser la décoration : ==@Injectable( )== . Cette même décoration permet de déclarer une dépendance dans un autre service, pipe ou module.
 
 - l'injection est un des mécanisme principaux de Angular, les injections de dépendance sont gérer par Angular au moment de l'amorçage.
 - un injecteur créer les dépendances et les réutilises si possible
@@ -46,5 +46,5 @@ L'injection de dépendance est très présente dans Angular, elle permet de gard
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTEwMzMxNV19
+eyJoaXN0b3J5IjpbMTcwNzM5MTIwMywtMzAxMTAzMzE1XX0=
 -->
