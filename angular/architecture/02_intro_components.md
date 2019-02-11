@@ -90,8 +90,6 @@ Les directives permettent de transformer dynamiquement le DOM, on distingue deux
 	+ ==ngStyle== = qui permet de modifier les propriétés css d'un élément
 	+ ==ngClass== = qui permet d'ajouter une class à un élément.
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjQyMDI0NV19
+eyJoaXN0b3J5IjpbMTYxNzgxNDA1OSwxNDY2NDIwMjQ1XX0=
 -->
