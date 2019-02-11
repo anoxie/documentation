@@ -41,10 +41,7 @@ L'injection de dépendance est très présente dans Angular, elle permet de gard
 - un injecteur créer les dépendances et les réutilises si possible
 - un provider est un objet qui indique à l'injeteur comment obtenir ou créer une dépendance.
  
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzM5MTIwMywtMzAxMTAzMzE1XX0=
+eyJoaXN0b3J5IjpbODMzMzk3NTMzLDE3MDczOTEyMDMsLTMwMT
+EwMzMxNV19
 -->
