@@ -61,11 +61,20 @@ Il faut enregistrer au moins un provider par service que l'on souhaite utiliser.
 	provideIn: 'root',
 })
 ```
-- ==@NgModule== en enregistrant le provider au niveau du module, il devient accessible à tout les composant de NgModule. Pour enregistrer le provider à ce niveau, il faut
+- ==@NgModule== en enregistrant le provider au niveau du module, il devient accessible à tout les composant de NgModule. Pour enregistrer le provider à ce niveau.
+```ts
+@NgModule({
+	providers: [
+	BackendService,
+	Logger
+],
+...
+})
+```
 - ==@Component==
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDcxOTU3MTIsODMzMzk3NTMzLDE3MD
-czOTEyMDMsLTMwMTEwMzMxNV19
+eyJoaXN0b3J5IjpbLTY3MDc4MTc2Nyw4MzMzOTc1MzMsMTcwNz
+M5MTIwMywtMzAxMTAzMzE1XX0=
 -->
