@@ -51,8 +51,10 @@ Quand Angular découvre qu'un composant à besoin d'un service, il vérifie que 
 
 ![enter image description here](https://angular.io/generated/images/guide/architecture/injector-injects.png)
 
-##
+## Providing Services
+
+Il faut enregistrer au moins un provider par service que l'on souhaite utiliser.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY3NTI3MjEsODMzMzk3NTMzLDE3MD
+eyJoaXN0b3J5IjpbLTEzNDEyMTk4MzQsODMzMzk3NTMzLDE3MD
 czOTEyMDMsLTMwMTEwMzMxNV19
 -->
