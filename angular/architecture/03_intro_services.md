@@ -71,10 +71,15 @@ Il faut enregistrer au moins un provider par service que l'on souhaite utiliser.
 ...
 })
 ```
-- ==@Component== en enregistrant à ce niveau on opti
+- ==@Component== en enregistrant à ce niveau on obtiens une nouvelle instance à chaque instance du composant.
+```ts
+@Component({
+	selector:	'app-hero-list',
+	templateUrl: '
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzcwNTE3Miw4MzMzOTc1MzMsMTcwNz
+eyJoaXN0b3J5IjpbLTY4Mjg3NDA3OSw4MzMzOTc1MzMsMTcwNz
 M5MTIwMywtMzAxMTAzMzE1XX0=
 -->
