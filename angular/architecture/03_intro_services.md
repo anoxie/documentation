@@ -47,8 +47,12 @@ Exemple comment injecter une dépendance :
 ```ts
 constructor(private service: HeroService) { }
 ```
-Quand Angular découvre qu'un composant à besoin d'un service, il vérifie que le service n'a pas
+Quand Angular découvre qu'un composant à besoin d'un service, il vérifie que le service n'a pas d'instance dans Injector, si ce n'est pas le cas, il crée une instance qu'il ajoute à Injector.
+
+![enter image description here](https://angular.io/generated/images/guide/architecture/injector-injects.png)
+
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg2OTc2NDgsODMzMzk3NTMzLDE3MD
+eyJoaXN0b3J5IjpbLTE1NzY3NTI3MjEsODMzMzk3NTMzLDE3MD
 czOTEyMDMsLTMwMTEwMzMxNV19
 -->
