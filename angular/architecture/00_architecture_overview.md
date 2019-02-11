@@ -37,12 +37,6 @@ Le module Angular Router fourni un service qui permet de définir les chemins n�
 ## Résumé en image :
 
 ![enter image description here](https://angular.io/generated/images/guide/architecture/overview2.png)
-
-
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1ODk3MTAxXX0=
+eyJoaXN0b3J5IjpbMTk3ODM5MDgzLDkyNTg5NzEwMV19
 -->
