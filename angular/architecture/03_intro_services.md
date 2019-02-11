@@ -55,7 +55,7 @@ Quand Angular découvre qu'un composant à besoin d'un service, il vérifie que 
 
 Il faut enregistrer au moins un provider par service que l'on souhaite utiliser. Le provider peut être enregistrer dans le service dans ce cas il sera disponible dans toute l'application, ou il peut être enregistrer pour un module ou un composant spécifique. L'enregistrement du provider peut se faire dans les métadatas de :
 
-- ==@Injectable== : par défaut Angular Cli ```ng generate service``` enregistre le provider avec l'injecteur root. Angular crée alors une instance partager et l'inject dan
+- ==@Injectable== : par défaut Angular Cli ```ng generate service``` enregistre le provider avec l'injecteur root. Angular crée alors une instance partager et l'inject dans toutes les class qui l'utilise. Utiliser cette méthode permet à Angular d'optimiser l'application en supprimant le service des parties de l'application qui n'en ont pas besoin
 ```ts
 @Injectable({
 	provideIn: 'root',
@@ -66,6 +66,6 @@ Il faut enregistrer au moins un provider par service que l'on souhaite utiliser.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjY5OTkxNiw4MzMzOTc1MzMsMTcwNz
+eyJoaXN0b3J5IjpbLTczMDk3MDk5MSw4MzMzOTc1MzMsMTcwNz
 M5MTIwMywtMzAxMTAzMzE1XX0=
 -->
