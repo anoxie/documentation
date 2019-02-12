@@ -80,8 +80,8 @@ Cette directive permet d'ajouter  ou supprimer un élément en fonction d'une co
 ```html
 <p *ngIf="heroes.length > 3"> There are many heroes!</p>
 ```
-Angular ne cache/affiche pas l'élément, il l'ajoute ou le supprime du DOM, lors de la génération de la page 
+Angular ne cache/affiche pas l'élément, il l'ajoute ou le supprime du DOM, lors de la génération de la page (=/= de css hidden).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0MzAyMjQsNzc1NDg4MDkxXX0=
+eyJoaXN0b3J5IjpbMjEyMzg1ODU5NCw3NzU0ODgwOTFdfQ==
 -->
