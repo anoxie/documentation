@@ -23,7 +23,11 @@ C'est avant tout une question de choix et d'organisation, mais il est générale
 
 
 ## Afficher un array avec ==*ngFor==
-Angular comporte une directive permettant d'afficher simplement un array dans un template, 
+Angular comporte une directive permettant d'afficher simplement un array dans un template, par exemple pour la déclaration d'array suivante :
+```ts
+export class AppComponent {
+title = 'Tour of Heroes';
+heroes = ['Windstorm', 'Bombasto', 'Magneta', 'Tor```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzMyMTAyODFdfQ==
+eyJoaXN0b3J5IjpbLTE4MTM1OTA1ODZdfQ==
 -->
