@@ -82,8 +82,7 @@ il n'est pas possible de faire référence à des élément du namespace global,
 ### Statement guidelines
 De la même manière que pour les expressions il faut éviter d'écrire des statement trop complexe, la logique de l'application doit se trouver dans le component, un appel à une méthode ou l'assignation à une propriété devrait être la norme.
 
-## Binding syntax
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjM2OTM3MSwtMTA2MjE0NTk1MSwtMT
-Y2MzY5NTQwNywtODY1MTkxNTk4LC0xNjUwNjA5ODQzXX0=
+eyJoaXN0b3J5IjpbLTE0ODAwMTYwMjksLTEwNjIxNDU5NTEsLT
+E2NjM2OTU0MDcsLTg2NTE5MTU5OCwtMTY1MDYwOTg0M119
 -->
