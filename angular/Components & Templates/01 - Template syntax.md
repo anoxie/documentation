@@ -50,8 +50,9 @@ Angular exécute les expressions du template à chaque nouveau cycle, dès que q
 Les templates doivent être aussi simple que possible et la logique applicative doit être concentré dans le component, pas dans le template.
 
 ## Template statements
-
+Un template statement répond à un événement lié à un binding event, exemple :
+```html```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIxNDU5NTEsLTE2NjM2OTU0MDcsLT
-g2NTE5MTU5OCwtMTY1MDYwOTg0M119
+eyJoaXN0b3J5IjpbLTEwMzQxMTg4NTgsLTEwNjIxNDU5NTEsLT
+E2NjM2OTU0MDcsLTg2NTE5MTU5OCwtMTY1MDYwOTg0M119
 -->
