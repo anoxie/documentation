@@ -56,7 +56,13 @@ export class Hero {
 ### Utilisation de la class Hero
 Création des héros :
 ```ts
-```
+heroes = [
+    new Hero(1, 'Windstorm'),
+    new Hero(13, 'Bombasto'),
+    new Hero(15, 'Magneta'),
+    new Hero(20, 'Tornado')
+];
+myHero = this.heroes[0]```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Mzk3MTcyOSw3NzU0ODgwOTFdfQ==
+eyJoaXN0b3J5IjpbMTUzMjc4MTc2MSw3NzU0ODgwOTFdfQ==
 -->
