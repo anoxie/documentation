@@ -53,7 +53,10 @@ export class Hero {
     )
 }
 ```
-
+### Utilisation de la class Hero
+Création des héros :
+```ts
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU5MTQ5NzYsNzc1NDg4MDkxXX0=
+eyJoaXN0b3J5IjpbLTY0Mzk3MTcyOSw3NzU0ODgwOTFdfQ==
 -->
