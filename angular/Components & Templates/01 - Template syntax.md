@@ -17,7 +17,9 @@ L'interpolation va évaluer l'expression avant de l'afficher, il est donc possib
 <p>The sum of 1 + 1 is not {{ 1 + 1 + getVal() }}.</p>
 ```
 
+## Template expressions
 
+Une expression produit une valeur sans utiliser l'in
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg1NDI1LC0xNjUwNjA5ODQzXX0=
+eyJoaXN0b3J5IjpbMTYxODQ1MTM4LC0xNjUwNjA5ODQzXX0=
 -->
