@@ -65,8 +65,12 @@ De la même manière que les template expression, les templates statement on une
 - les opérateurs du template expression
 
 ### Statement context
+Comme le template expression, le template statement a pour contexte le component, il peut aussi faire référence à des éléments du template :
 
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTQ2OTM0NiwtMTA2MjE0NTk1MSwtMT
+eyJoaXN0b3J5IjpbMTIxMjU1NTg2NywtMTA2MjE0NTk1MSwtMT
 Y2MzY5NTQwNywtODY1MTkxNTk4LC0xNjUwNjA5ODQzXX0=
 -->
