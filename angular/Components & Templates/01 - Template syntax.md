@@ -43,11 +43,11 @@ Une expression peut aussi faire référence à une variable relative au template
 ```
 ## Expression guidelines
 ### No visible side effects
-
+Une expression de template, ne doit changer aucun autre élément de l'application que la valeur qu'elle cible expressément.
 ### Quick execution
 
 ### Simplicity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTMwNDE2NiwtODY1MTkxNTk4LC0xNj
-UwNjA5ODQzXX0=
+eyJoaXN0b3J5IjpbLTE2NjM2OTU0MDcsLTg2NTE5MTU5OCwtMT
+Y1MDYwOTg0M119
 -->
