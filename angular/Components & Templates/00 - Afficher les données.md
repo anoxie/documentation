@@ -1,10 +1,14 @@
 # Afficher les données
 ## Interpolation
-La manière la plus simple d'afficher des données avec Angular, est l'interpolation. Elle consiste à ajouter le nom de la variable que l'on souhaite ajouter dans le template entre double accolades : ```{{ heroName }}```, il faut également que la variable soit déclarer dans le component :
+La manière la plus simple d'afficher des données avec Angular, est l'interpolation. Elle consiste à ajouter le nom de la variable que l'on souhaite ajouter dans le template entre double accolades : ```{{ heroName }}```, il faut également que la variable soit déclarer dans le component, par exemple avec une déclaration de template inline :
 ```ts
+import { Component } from '@angular/core';
 
+@Component({
+   selector: 'app-root',
+   template: 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTA3NTkwNjddfQ==
+eyJoaXN0b3J5IjpbLTk5MjU4OTI2OV19
 -->
