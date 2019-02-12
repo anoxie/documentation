@@ -75,8 +75,9 @@ Dans le template le code deviendra :
     </li>
 </ul>
 ```
-## Affichage conditionnel
+## Affichage conditionnel ==*ngIf==
+Cette directive permet d'ajouter  ou supprimer un élément en fonction d'une condition. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDc0MjUyOCw3NzU0ODgwOTFdfQ==
+eyJoaXN0b3J5IjpbMTg1NjIzNjA0MSw3NzU0ODgwOTFdfQ==
 -->
