@@ -33,8 +33,15 @@ export class AppComponent {
 ```
 et dans le template :
 ```html
-<h1> {{ title}}</
+<h1> {{ title }}</h1>
+<h2> My favorite hero is : {{ myHero }} </h2>
+<p> Heroes: </p>
+<ul>
+   <li *ngFor="let hero of heroes">
+      {{ hero }}
+   </li>
+   
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2MDEzMDczXX0=
+eyJoaXN0b3J5IjpbLTQ4NTYwMTM4M119
 -->
