@@ -12,10 +12,15 @@ import { Component } from '@angular/core';
 	   `
 })
 export class AppComponent {
-title = 'Tour of Heroes';
-myHero = 'Windstorm
+    title = 'Tour of Heroes';
+    myHero = 'Windstorm';
+}
 ```
 
+## Template Inline vs in file ?
+
+C'est avant tout une question de choix et d'organisation, mais il est généralement préférable d'utiliser un fichier séparé à moins qu'il n'y ai que quelques ligne de code html dan
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzk3MjA1Ml19
+eyJoaXN0b3J5IjpbMTMzODI5ODQxOV19
 -->
