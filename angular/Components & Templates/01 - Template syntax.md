@@ -48,7 +48,10 @@ Une expression de template, ne doit changer aucun autre élément de l'applicati
 Angular exécute les expressions du template à chaque nouveau cycle, dès que quelque chose change, une promesse qui arrive à terme, une requête http, un temps donné,... De ce fait fait l'exécution de ces expressions doit être aussi rapide que possible, le cas échéant, il faut pense à mettre en cache les expressions qui demanderait de trop nombreux calculs
 ### Simplicity
 Les templates doivent être aussi simple que possible et la logique applicative doit être concentré dans le component, pas dans le template.
+
+## Template statements
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTE4NzU4MywtMTY2MzY5NTQwNywtOD
-Y1MTkxNTk4LC0xNjUwNjA5ODQzXX0=
+eyJoaXN0b3J5IjpbLTEwNjIxNDU5NTEsLTE2NjM2OTU0MDcsLT
+g2NTE5MTU5OCwtMTY1MDYwOTg0M119
 -->
