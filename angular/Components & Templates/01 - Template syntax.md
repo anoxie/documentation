@@ -46,9 +46,9 @@ Une expression peut aussi faire référence à une variable relative au template
 Une expression de template, ne doit changer aucun autre élément de l'application que la valeur qu'elle cible expressément. Plusieurs appel successif de la même donnée doivent afficher la même valeur.
 
 ### Quick execution
-
+Angular exécute les expressions du template à chaque nouveau cycle, dès que quelque chose change, une promesse qui arrive à terme, une requête http, un temps donné,... 
 ### Simplicity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODEwMDY5MywtMTY2MzY5NTQwNywtOD
+eyJoaXN0b3J5IjpbLTM0OTk5MzI4NSwtMTY2MzY5NTQwNywtOD
 Y1MTkxNTk4LC0xNjUwNjA5ODQzXX0=
 -->
