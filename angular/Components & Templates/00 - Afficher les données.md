@@ -43,6 +43,9 @@ et dans le template :
 </ul>
 ```
 
+## Créer une class pour les données
+Dans les exemples les données sont stockées dans un tableau écrit directement dans le code, mais ce n'est pas une bonne pratique, dans une application réel, il est préférable que les données soit structuré en objet, de sort
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1NDg4MDkxXX0=
+eyJoaXN0b3J5IjpbLTIyMDI5NjI4NCw3NzU0ODgwOTFdfQ==
 -->
