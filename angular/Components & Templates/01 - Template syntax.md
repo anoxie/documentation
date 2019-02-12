@@ -4,7 +4,10 @@ Les composants sont la partie Controller et View de l'application de le cadre d'
 Il est possible de créer de nouvelle balise html, <app-root\> par exemple.
 
 ## Interpolation {{ ... }}
+Remplace tout simplement le texte entre les deux accolades par la valeurs correspondante. Il est possible de réaliser une interpolation, dans l'affichage aussi bien que dans les attributs html, par exemple :
+```html
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA2MDk4NDNdfQ==
+eyJoaXN0b3J5IjpbNDg4NzgyODczLC0xNjUwNjA5ODQzXX0=
 -->
