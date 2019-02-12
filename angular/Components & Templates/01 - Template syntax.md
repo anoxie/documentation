@@ -35,18 +35,18 @@ il n'est par contre pas possible d'utiliser :
 - || et &&
 - ni les nouveau template d'expression tel que |, ?, !
 
-## Context de l'expression
+### Context de l'expression
 Le contexte d'expression est l'instance du component à laquelle appartient le template.
 Une expression peut aussi faire référence à une variable relative au template lui même c'est notamment le cas lors de l'usage de ```*ngFor="let customer of customers"``` ou via une référence à une variable dans le template :
 ```html
 <input #customerInput> {{customerInput.value}}</label>
 ```
-## Expression guidelines
-### No visible side effects
+### Expression guidelines
+#### No visible side effects
 Une expression de template, ne doit changer aucun autre élément de l'application que la valeur qu'elle cible expressément. Plusieurs appel successif de la même donnée doivent afficher la même valeur.
-### Quick execution
+#### Quick execution
 Angular exécute les expressions du template à chaque nouveau cycle, dès que quelque chose change, une promesse qui arrive à terme, une requête http, un temps donné,... De ce fait fait l'exécution de ces expressions doit être aussi rapide que possible, le cas échéant, il faut pense à mettre en cache les expressions qui demanderait de trop nombreux calculs
-### Simplicity
+#### Simplicity
 Les templates doivent être aussi simple que possible et la logique applicative doit être concentré dans le component, pas dans le template.
 
 ## Template statements
@@ -64,7 +64,9 @@ De la même manière que les template expression, les templates statement on une
 - || et &&
 - les opérateurs du template expression
 
+### Statement context
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUzMjIzNCwtMTA2MjE0NTk1MSwtMT
+eyJoaXN0b3J5IjpbMTEyMTQ2OTM0NiwtMTA2MjE0NTk1MSwtMT
 Y2MzY5NTQwNywtODY1MTkxNTk4LC0xNjUwNjA5ODQzXX0=
 -->
