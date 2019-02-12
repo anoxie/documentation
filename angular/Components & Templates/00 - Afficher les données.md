@@ -68,10 +68,15 @@ Dans le template le code deviendra :
 ```html
 <h1> {{ title }} </h1>
 <h2> My favorite hero is: {{myHero.name}}</h2>
-<p>Heroes:<
-
+<p>Heroes:</p>
+<ul>
+    <li *ngFor="let hero of heroes">
+        {{ hero.name }}
+    </li>
+</ul>
 ```
+## Affichage conditionnel
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwNTAwOTgxLDc3NTQ4ODA5MV19
+eyJoaXN0b3J5IjpbMTYyNDc0MjUyOCw3NzU0ODgwOTFdfQ==
 -->
