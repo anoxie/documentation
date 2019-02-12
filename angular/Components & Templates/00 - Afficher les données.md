@@ -31,8 +31,10 @@ export class AppComponent {
     myHero = this.heroes[0];
 }
 ```
-
-
+et dans le template :
+```html
+<h1> {{ title}}</
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ2ODU0ODBdfQ==
+eyJoaXN0b3J5IjpbNzQ2MDEzMDczXX0=
 -->
