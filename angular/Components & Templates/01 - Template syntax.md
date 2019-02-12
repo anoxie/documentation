@@ -79,8 +79,9 @@ context name > component context name
 
 il n'est pas possible de faire référence à des élément du namespace global, window ou document, ni d'appeler console.log ou Math.max
 
-### S
+### Statement guidelines
+De la même manière que pour les expressions il faut éviter d'écrire des statement trop complexe, la logique de l'application doit se trouver dans le component, un appel à une méthode ou l'assignement à une propriété devrait 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzMwMDM1NywtMTA2MjE0NTk1MSwtMT
-Y2MzY5NTQwNywtODY1MTkxNTk4LC0xNjUwNjA5ODQzXX0=
+eyJoaXN0b3J5IjpbMTAxNDY2MjI0LC0xMDYyMTQ1OTUxLC0xNj
+YzNjk1NDA3LC04NjUxOTE1OTgsLTE2NTA2MDk4NDNdfQ==
 -->
