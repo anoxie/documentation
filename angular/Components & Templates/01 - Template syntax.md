@@ -23,7 +23,11 @@ Une expression produit une valeur sans utiliser l'interpolation, il s'agit d'un 
 ```javascript
 [property] = "expression"
 ```
-il est possible d'utiliser les 
+il est possible d'utiliser les expressions Javascript suivantes :
+
+- assignation (=, +=, -=, ...)
+- les opérateur tel que new, typeof, instanceof, etc
+- les chaine
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2NDY2MTQ4LC0xNjUwNjA5ODQzXX0=
+eyJoaXN0b3J5IjpbNDc4MjUxODMsLTE2NTA2MDk4NDNdfQ==
 -->
