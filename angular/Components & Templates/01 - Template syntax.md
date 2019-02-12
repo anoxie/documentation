@@ -3,7 +3,8 @@ Les composants sont la partie Controller et View de l'application de le cadre d'
 
 Il est possible de créer de nouvelle balise html, <app-root\> par exemple.
 
+## Interpolation {{ ... }}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0NTIxOTQxXX0=
+eyJoaXN0b3J5IjpbLTE2NTA2MDk4NDNdfQ==
 -->
