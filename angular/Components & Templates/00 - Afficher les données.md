@@ -26,8 +26,10 @@ C'est avant tout une question de choix et d'organisation, mais il est générale
 Angular comporte une directive permettant d'afficher simplement un array dans un template, par exemple pour la déclaration d'array suivante :
 ```ts
 export class AppComponent {
-title = 'Tour of Heroes';
-heroes = ['Windstorm', 'Bombasto', 'Magneta', 'Tor```
+    title = 'Tour of Heroes';
+    heroes = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado'];
+    myHero = this.heroes[0];
+   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM1OTA1ODZdfQ==
+eyJoaXN0b3J5IjpbMTc5NDk1MjM5N119
 -->
