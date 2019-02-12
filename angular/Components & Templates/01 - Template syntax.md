@@ -41,6 +41,13 @@ Une expression peut aussi faire référence à une variable relative au template
 ```html
 <input #customerInput> {{customerInput.value}}</label>
 ```
+## Expression guidelines
+### No visible side effects
+
+### Quick execution
+
+### Simplicity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTE5MTU5OCwtMTY1MDYwOTg0M119
+eyJoaXN0b3J5IjpbMTM0OTMwNDE2NiwtODY1MTkxNTk4LC0xNj
+UwNjA5ODQzXX0=
 -->
