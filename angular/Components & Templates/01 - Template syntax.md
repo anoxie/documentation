@@ -19,7 +19,7 @@ L'interpolation va évaluer l'expression avant de l'afficher, il est donc possib
 
 ## Template expressions
 
-Une expression produit une valeur sans utiliser l'in
+Une expression produit une valeur sans utiliser l'interpolation, il s'agit d'un propriety binding, en terme de syntax, l'expression se 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODQ1MTM4LC0xNjUwNjA5ODQzXX0=
+eyJoaXN0b3J5IjpbMTY3OTA0NDU3LC0xNjUwNjA5ODQzXX0=
 -->
