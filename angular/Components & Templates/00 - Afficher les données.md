@@ -19,8 +19,10 @@ export class AppComponent {
 
 ## Template Inline vs in file ?
 
-C'est avant tout une question de choix et d'organisation, mais il est généralement préférable d'utiliser un fichier séparé à moins qu'il n'y ai que quelques ligne de code html dans le template du component. Angular CLI génère automatiquement un fichier de template avec la commande ```ng generate component <name>```, il est possible d'inhiber cette génération en renseignant l'option 
+C'est avant tout une question de choix et d'organisation, mais il est généralement préférable d'utiliser un fichier séparé à moins qu'il n'y ai que quelques ligne de code html dans le template du component. Angular CLI génère automatiquement un fichier de template avec la commande ```ng generate component <name>```, il est possible d'inhiber cette génération en renseignant l'option inline template comme suit : ```ng generate component <name> -it```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTMzODIxMDldfQ==
+eyJoaXN0b3J5IjpbNjg2ODk5ODUyXX0=
 -->
