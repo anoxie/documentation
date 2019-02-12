@@ -70,9 +70,10 @@ Comme le template expression, le template statement a pour contexte le component
 ```html
 <button (click)="onSave($event)">Save</button>
 <button *ngFor="let hero of heroes" (click)="deleteHero(hero)">{{hero.name}}</button>
-<form #heroForm (ngSubm
+<form #heroForm (ngSubmit)="onSubmit(heroForm)"> ... </form>
 ```
+context name > component context name 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQxMDAxOTMsLTEwNjIxNDU5NTEsLT
-E2NjM2OTU0MDcsLTg2NTE5MTU5OCwtMTY1MDYwOTg0M119
+eyJoaXN0b3J5IjpbMTAyMjAzMDE3MCwtMTA2MjE0NTk1MSwtMT
+Y2MzY5NTQwNywtODY1MTkxNTk4LC0xNjUwNjA5ODQzXX0=
 -->
