@@ -6,9 +6,16 @@ import { Component } from '@angular/core';
 
 @Component({
    selector: 'app-root',
-   template: 
+   template: `
+	   <h1> {{ title }}</h1>
+	   <h2> My favorite hero is: {{ myHero }} </h2>
+	   `
+})
+export class AppComponent {
+title = 'Tour of Heroes';
+myHero = 'Windstorm
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjU4OTI2OV19
+eyJoaXN0b3J5IjpbMTAxNzk3MjA1Ml19
 -->
