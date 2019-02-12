@@ -40,8 +40,9 @@ et dans le template :
    <li *ngFor="let hero of heroes">
       {{ hero }}
    </li>
-   
+</ul>
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTYwMTM4M119
+eyJoaXN0b3J5IjpbNzc1NDg4MDkxXX0=
 -->
