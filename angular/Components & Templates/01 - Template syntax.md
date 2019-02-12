@@ -56,8 +56,15 @@ Un template statement répond à un événement lié à un binding event, exempl
 ```
 Il est possible via un Template statement de modifier tout ce que l'on souhaite, les valeurs des variables, le template,...
 
-De la même manière que les template expression, les templates statement on une syntax proche de javascript, mais pour les statements les e
+De la même manière que les template expression, les templates statement on une syntax proche de javascript, mais pour les statements les expressions suivantes ne sont pas autorisés :
+
+- new
+- ++ et -\-
+- les opérateurs d'assignation += ou -=
+- || et &&
+- les opérateurs du template expression
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2MzEwMDg3LC0xMDYyMTQ1OTUxLC0xNj
-YzNjk1NDA3LC04NjUxOTE1OTgsLTE2NTA2MDk4NDNdfQ==
+eyJoaXN0b3J5IjpbLTE5MTUzMjIzNCwtMTA2MjE0NTk1MSwtMT
+Y2MzY5NTQwNywtODY1MTkxNTk4LC0xNjUwNjA5ODQzXX0=
 -->
