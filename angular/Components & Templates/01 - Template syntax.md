@@ -13,8 +13,11 @@ L'interpolation va évaluer l'expression avant de l'afficher, il est donc possib
 ```html
 <!-- "The sum of 1 + 1 is 2" -->
 <p>The sum of 1 + 1 is {{1+1}}.</p>
-<!-- "The sum of 1 + 1 is not 4
+<!-- "The sum of 1 + 1 is not 4" -->
+<p>The sum of 1 + 1 is not {{ 1 + 1 + getVal() }}.</p>
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTg4ODAxNywtMTY1MDYwOTg0M119
+eyJoaXN0b3J5IjpbLTE1OTg1NDI1LC0xNjUwNjA5ODQzXX0=
 -->
