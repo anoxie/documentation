@@ -38,7 +38,9 @@ il n'est par contre pas possible d'utiliser :
 ## Context de l'expression
 Le contexte d'expression est l'instance du component à laquelle appartient le template.
 Une expression peut aussi faire référence à une variable relative au template lui même c'est notamment le cas lors de l'usage de ```*ngFor="let customer of customers"``` ou via une référence à une variable dans le template :
-```html```
+```html
+<input #customerInput> {{customerInput.value}}</label>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDk4MzM1OSwtMTY1MDYwOTg0M119
+eyJoaXN0b3J5IjpbLTg2NTE5MTU5OCwtMTY1MDYwOTg0M119
 -->
