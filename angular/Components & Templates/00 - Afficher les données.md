@@ -62,7 +62,16 @@ heroes = [
     new Hero(15, 'Magneta'),
     new Hero(20, 'Tornado')
 ];
-myHero = this.heroes[0]```
+myHero = this.heroes[0];
+```
+Dans le template le code deviendra :
+```html
+<h1> {{ title }} </h1>
+<h2> My favorite hero is: {{myHero.name}}</h2>
+<p>Heroes:<
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjc4MTc2MSw3NzU0ODgwOTFdfQ==
+eyJoaXN0b3J5IjpbMjYwNTAwOTgxLDc3NTQ4ODA5MV19
 -->
