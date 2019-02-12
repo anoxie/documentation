@@ -29,7 +29,10 @@ export class AppComponent {
     title = 'Tour of Heroes';
     heroes = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado'];
     myHero = this.heroes[0];
-   ```
+}
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDk1MjM5N119
+eyJoaXN0b3J5IjpbLTE0ODQ2ODU0ODBdfQ==
 -->
