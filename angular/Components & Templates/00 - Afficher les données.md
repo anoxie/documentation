@@ -44,8 +44,8 @@ et dans le template :
 ```
 
 ## Créer une class pour les données
-Dans les exemples les données sont stockées dans un tableau écrit directement dans le code, mais ce n'est pas une bonne pratique, dans une application réel, il est préférable que les données soit structuré en objet, de sort
+Dans les exemples les données sont stockées dans un tableau écrit directement dans le code, mais ce n'est pas une bonne pratique, dans une application réel, il est préférable que les données soit structuré en objet, de sorte que ce soit un tableau de ces objets qui soit retourné à la directive ==*ngFor==, pour créer une class avec Angular CLI ```ng generate class hero```, puis de complè
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDI5NjI4NCw3NzU0ODgwOTFdfQ==
+eyJoaXN0b3J5IjpbLTE5MDc1NjkzMzgsNzc1NDg4MDkxXX0=
 -->
