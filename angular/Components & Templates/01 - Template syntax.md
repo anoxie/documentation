@@ -19,7 +19,11 @@ L'interpolation va évaluer l'expression avant de l'afficher, il est donc possib
 
 ## Template expressions
 
-Une expression produit une valeur sans utiliser l'interpolation, il s'agit d'un propriety binding, en terme de syntax, l'expression se 
+Une expression produit une valeur sans utiliser l'interpolation, il s'agit d'un propriety binding, en terme de syntax, l'expression se rapproche du javascript. Exemple :
+```javascript
+[property] = "expression"
+```
+il est possible d'utiliser les 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTA0NDU3LC0xNjUwNjA5ODQzXX0=
+eyJoaXN0b3J5IjpbMjM2NDY2MTQ4LC0xNjUwNjA5ODQzXX0=
 -->
