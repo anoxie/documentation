@@ -18,7 +18,6 @@ L'interpolation va évaluer l'expression avant de l'afficher, il est donc possib
 ```
 
 ## Template expressions
-
 Une expression produit une valeur sans utiliser l'interpolation, il s'agit d'un propriety binding, en terme de syntax, l'expression se rapproche du javascript. Exemple :
 ```javascript
 [property] = "expression"
@@ -36,7 +35,8 @@ il n'est par contre pas possible d'utiliser :
 - || et &&
 - ni les nouveau template d'expression tel que |, ?, !
 
-
+## Context de l'expression
+Le contexte d'expression est l'instance du component à laquelle appartient le template.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNTQ0NjM4LC0xNjUwNjA5ODQzXX0=
+eyJoaXN0b3J5IjpbLTM4MjA2MjAyMSwtMTY1MDYwOTg0M119
 -->
