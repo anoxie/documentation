@@ -6,8 +6,10 @@ Il est possible de créer de nouvelle balise html, <app-root\> par exemple.
 ## Interpolation {{ ... }}
 Remplace tout simplement le texte entre les deux accolades par la valeurs correspondante. Il est possible de réaliser une interpolation, dans l'affichage aussi bien que dans les attributs html, par exemple :
 ```html
-
+<p>{{ titl }}</p>
+<div><img src="{{ itemImageUrl }}"></div>
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4NzgyODczLC0xNjUwNjA5ODQzXX0=
+eyJoaXN0b3J5IjpbMTAzNjI1Njk5OSwtMTY1MDYwOTg0M119
 -->
