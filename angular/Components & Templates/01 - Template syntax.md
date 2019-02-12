@@ -10,6 +10,11 @@ Remplace tout simplement le texte entre les deux accolades par la valeurs corres
 <div><img src="{{ itemImageUrl }}"></div>
 ```
 L'interpolation va évaluer l'expression avant de l'afficher, il est donc possible d'effectuer des calcules, ou d'appeler des fonctions.
+```html
+<!-- "The sum of 1 + 1 is 2" -->
+<p>The sum of 1 + 1 is {{1+1}}.</p>
+<!-- "The sum of 1 + 1 is not 4
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjcwOTk4MSwtMTY1MDYwOTg0M119
+eyJoaXN0b3J5IjpbLTU0NTg4ODAxNywtMTY1MDYwOTg0M119
 -->
