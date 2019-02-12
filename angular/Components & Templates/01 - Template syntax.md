@@ -27,7 +27,12 @@ il est possible d'utiliser les expressions Javascript suivantes :
 
 - assignation (=, +=, -=, ...)
 - les opérateur tel que new, typeof, instanceof, etc
-- les chaine
+- les chaines avec ; et ,
+- l'incrémentation ++ et décrémentation -\-
+- certain des opérateur d'ES2015
+il n'est par contre pas possible d'utiliser :
+
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4MjUxODMsLTE2NTA2MDk4NDNdfQ==
+eyJoaXN0b3J5IjpbLTY5NTMyMjcxMywtMTY1MDYwOTg0M119
 -->
