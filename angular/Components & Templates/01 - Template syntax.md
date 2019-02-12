@@ -41,6 +41,9 @@ Une expression peut aussi faire référence à une variable relative au template
 ```html
 <input #customerInput> {{customerInput.value}}</label>
 ```
+context name > component context name 
+
+il n'est pas possible de faire référence à des élément du namespace global, window ou document, ni d'appeler console.log ou Math.max
 ### Expression guidelines
 #### No visible side effects
 Une expression de template, ne doit changer aucun autre élément de l'application que la valeur qu'elle cible expressément. Plusieurs appel successif de la même donnée doivent afficher la même valeur.
@@ -73,7 +76,11 @@ Comme le template expression, le template statement a pour contexte le component
 <form #heroForm (ngSubmit)="onSubmit(heroForm)"> ... </form>
 ```
 context name > component context name 
+
+il n'est pas possible de faire référence à des élément du namespace global, window ou document, ni d'appeler console.log ou Math.max
+
+### S
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjAzMDE3MCwtMTA2MjE0NTk1MSwtMT
+eyJoaXN0b3J5IjpbLTk1NzMwMDM1NywtMTA2MjE0NTk1MSwtMT
 Y2MzY5NTQwNywtODY1MTkxNTk4LC0xNjUwNjA5ODQzXX0=
 -->
