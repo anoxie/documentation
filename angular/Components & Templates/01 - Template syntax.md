@@ -51,8 +51,11 @@ Les templates doivent être aussi simple que possible et la logique applicative 
 
 ## Template statements
 Un template statement répond à un événement lié à un binding event, exemple :
-```html```
+```html
+<button (click)="deleteHero()">Delete hero </button>
+```
+Il est possible via un Template statement de m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQxMTg4NTgsLTEwNjIxNDU5NTEsLT
-E2NjM2OTU0MDcsLTg2NTE5MTU5OCwtMTY1MDYwOTg0M119
+eyJoaXN0b3J5IjpbLTYyMjMxMjU0MiwtMTA2MjE0NTk1MSwtMT
+Y2MzY5NTQwNywtODY1MTkxNTk4LC0xNjUwNjA5ODQzXX0=
 -->
