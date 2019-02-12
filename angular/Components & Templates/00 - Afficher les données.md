@@ -76,8 +76,11 @@ Dans le template le code deviendra :
 </ul>
 ```
 ## Affichage conditionnel ==*ngIf==
-Cette directive permet d'ajouter  ou supprimer un élément en fonction d'une condition. 
+Cette directive permet d'ajouter  ou supprimer un élément en fonction d'une condition. Le code suivant affichera <p\> si la condition est rempli :
+```html
+<p *ngIf="heroes.length > 3"> Thr
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjIzNjA0MSw3NzU0ODgwOTFdfQ==
+eyJoaXN0b3J5IjpbLTYzNDcwNzQxOCw3NzU0ODgwOTFdfQ==
 -->
