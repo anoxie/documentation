@@ -30,9 +30,13 @@ il est possible d'utiliser les expressions Javascript suivantes :
 - les chaines avec ; et ,
 - l'incrémentation ++ et décrémentation -\-
 - certain des opérateur d'ES2015
+
 il n'est par contre pas possible d'utiliser :
 
--
+- || et &&
+- ni les nouveau template d'expression tel que |, ?, !
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTMyMjcxMywtMTY1MDYwOTg0M119
+eyJoaXN0b3J5IjpbNDQyNTQ0NjM4LC0xNjUwNjA5ODQzXX0=
 -->
