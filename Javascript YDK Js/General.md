@@ -9,6 +9,9 @@ var obj ={
 	};
 ```
 
+# Immediatly Invoked Function Expression
+Cette syntaxe permet d’exécuter immédiatement une fonction, exemple :
+```javascri```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDU1NTUyNl19
+eyJoaXN0b3J5IjpbLTI1ODU1NTM3NF19
 -->
