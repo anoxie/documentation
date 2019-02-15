@@ -48,7 +48,7 @@ CREATE POLICY
 Row Security Policies
 
 ## Partitionnement :
-Il est possible de partitionner une table trop volumineuse pour la stocker sur plusieurs support et d'augmenter la réactivité en séparant les données
+Il est possible de partitionner une table trop volumineuse pour la stocker sur plusieurs support et d'augmenter la réactivité en séparant les données fréquemment utiliser des données qui peuvent être archivé.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyODEyNDE2XX0=
+eyJoaXN0b3J5IjpbMTY0NjI3MzUwM119
 -->
