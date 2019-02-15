@@ -10,8 +10,15 @@ COMMIT;
 
 #il est aussi possible d'ajouter des étapes intermédiaires
 BEGIN;
-
+requete1;
+SAVEPOINT save;
+requete2;
+ROLLBACK TO save;
+requete3;
+COMMIT;
 ```
+## Fenêtrage :
+Permet de faire un calcul d'agragation sur un sous ensemble du résultat de la requête. Par exemple obtenir la m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2NjY1NDg5XX0=
+eyJoaXN0b3J5IjpbLTUyMzc2OTEzNF19
 -->
