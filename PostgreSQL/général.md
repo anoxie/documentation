@@ -41,7 +41,12 @@ Il est possible de créer des fonctions en SQL
 > donnée un nom à la contrainte facilite la recherche d'erreurs :
 > prix numeric CONSTRAINT prix_positif CHECK (prix>0)
 
-##
+## Sécurité :
+Il est possible de régler finement les droits des différents utilisateurs de la base, et de créer des rôles qui peuvent être valables pour un utilisateur ou un groupe.
+
+CREATE POLICY
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwNjUyMjc0XX0=
+eyJoaXN0b3J5IjpbNzkwMjA2MDddfQ==
 -->
