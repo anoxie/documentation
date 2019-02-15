@@ -7,10 +7,8 @@ var obj ={
 	    b: 42,
 	    c: true
 	};
-
-
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTIyMDczMzBdfQ==
+eyJoaXN0b3J5IjpbLTM3NDU1NTUyNl19
 -->
