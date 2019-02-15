@@ -26,7 +26,11 @@ From produits;
 ```
 
 ## Héritage :
-Même fonctionnement qu'en orienté objet, une table enfan
+Même fonctionnement qu'en orienté objet, une table enfant hérite des propriétés de ces parents, par exemple une table capitale pourra hériter des propriétés d'une table ville, reprenants tout ces champs et en ajoutants qui lui sont spécifiques.
+
+```sql
+CREATE TABLE capitales (etats char(2))I
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3NzA0MDU1XX0=
+eyJoaXN0b3J5IjpbNDAwNjk5MTgyXX0=
 -->
