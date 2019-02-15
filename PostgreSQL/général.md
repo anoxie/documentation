@@ -45,8 +45,10 @@ Il est possible de créer des fonctions en SQL
 Il est possible de régler finement les droits des différents utilisateurs de la base, et de créer des rôles qui peuvent être valables pour un utilisateur ou un groupe.
 
 CREATE POLICY
+Row Security Policies
 
-
+## Partitionnement :
+Il est possible de partitionner une table trop volumineuse pour la stocker sur plusieurs support et d'augmenter la réactivité en séparant les données
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwMjA2MDddfQ==
+eyJoaXN0b3J5IjpbODQyODEyNDE2XX0=
 -->
