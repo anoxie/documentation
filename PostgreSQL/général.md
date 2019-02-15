@@ -33,7 +33,10 @@ CREATE TABLE capitales (etats char(2))INHERITS(villes);
 ```
 Pour exclure les tables enfants d'une requête il faut utiliser le mot clef ONLY dans la clause FROM
 
-##
+Il est possible de créer des fonctions en SQL
+
+> Définition des structures de données :
+> Les contraintes : elles permettent d'appliquer des tests pour vérifier le formatage des données, tests qui offrent plus de flexibilité que les types de données (INT, VARCHAR,...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDcwOTQwMF19
+eyJoaXN0b3J5IjpbLTE3Nzc1MTA0MTJdfQ==
 -->
