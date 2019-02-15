@@ -11,7 +11,11 @@ var obj ={
 
 # Immediatly Invoked Function Expression
 Cette syntaxe permet d’exécuter immédiatement une fonction, exemple :
-```javascri```
+```javascript
+(function IIFE(){
+    do things;
+    
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODU1NTM3NF19
+eyJoaXN0b3J5IjpbMTA2ODEyNDYzOF19
 -->
