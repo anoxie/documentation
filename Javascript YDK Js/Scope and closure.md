@@ -8,8 +8,8 @@ function wait (message) {
         console.log(message);
     }
 }
-wait
+wait("Hello, closure !");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjA0NzIyMV19
+eyJoaXN0b3J5IjpbLTEzNzEzOTEzOTNdfQ==
 -->
