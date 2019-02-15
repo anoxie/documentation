@@ -21,7 +21,12 @@ COMMIT;
 Permet de faire un calcul d'agragation sur un sous ensemble du résultat de la requête. Par exemple obtenir la moyenne de prix de différents produit présent dans le même rayon par type, il est plus pertinent de comparer le prix d'une TV à la moyenne du prix des autres TV qu'à l'ensemble des produits du rayon.
 
 ```sql
-Select type.prod, ```
+Select type_prod, prod, prix AVG(prix) OVER (PARTITION BY type_prod)
+From produits;
+```
+
+## Héritage :
+Même fonctionnement qu'en orienté objet, une table enfan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIyMjQyNjRdfQ==
+eyJoaXN0b3J5IjpbNTE3NzA0MDU1XX0=
 -->
