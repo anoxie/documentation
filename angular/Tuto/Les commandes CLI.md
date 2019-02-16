@@ -12,9 +12,12 @@ le flag open permet d'ouvrir la page du projet une fois compilé dans le navigat
 
 ### Création d'un nouveau component
 ```bash
-ng generate component <nom-
+ng generate component <nom-du-component>
+```
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0MDU2NDc0XX0=
+eyJoaXN0b3J5IjpbNTczNjEzMTg5XX0=
 -->
