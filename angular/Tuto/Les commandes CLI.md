@@ -17,9 +17,11 @@ ng generate component <nom-du-component>
 
 ### Création d'un service
 ```bash
-ng generate service
+ng generate service <service-name>
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTc0MzUzNyw1NzM2MTMxODldfQ==
+eyJoaXN0b3J5IjpbNDk3MTQ5ODI2LDEzNjU3NDM1MzcsNTczNj
+EzMTg5XX0=
 -->
