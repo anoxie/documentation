@@ -15,9 +15,11 @@ le flag open permet d'ouvrir la page du projet une fois compilé dans le navigat
 ng generate component <nom-du-component>
 ```
 
-
+### Création d'un service
+```bash
+ng generate service
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNjEzMTg5XX0=
+eyJoaXN0b3J5IjpbMTM2NTc0MzUzNyw1NzM2MTMxODldfQ==
 -->
