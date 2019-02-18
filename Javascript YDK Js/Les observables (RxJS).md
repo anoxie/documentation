@@ -326,11 +326,17 @@ onAllumer(){
     this.appareilService.switchOnAll();
 }
 
-onEtei
+onEteindre(){
+    if(confirm('Etes-vous sûr de vouloir éteindre tous vos appareils ?')){
+        this.appareilService.switchOffAll();
+    } else {
+        return
+    }
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Nzc1NTczMiwtMTAyNTYxNTA4NCwxOD
+eyJoaXN0b3J5IjpbMTI3OTQ2MTQyMCwtMTAyNTYxNTA4NCwxOD
 IxODAxOCwtMTE4MjQ1OTQ0MCwtNjY3MzE3NTU1LDEzMDQ3NjY0
 NzIsNDU3NzEyMzNdfQ==
 -->
