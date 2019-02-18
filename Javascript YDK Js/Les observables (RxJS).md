@@ -164,9 +164,18 @@ template :
 ```html
 <ul class="nav navbar-nav">
     <li routerLinkActive="active">
-        <a
+        <a routerLink="auth">
+            Authentification
+        </a>
+    </li>
+    <li routerLinkActive="active">
+        <a routerLink="appareils">
+	    Appareils
+	</a>
+    </li>
+    
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2OTU2NDEzLC02NjczMTc1NTUsMTMwND
+eyJoaXN0b3J5IjpbNDI2Njk2MjU0LC02NjczMTc1NTUsMTMwND
 c2NjQ3Miw0NTc3MTIzM119
 -->
