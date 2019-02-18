@@ -57,8 +57,12 @@ fetch('https://api.github.com/users/wyeo") //fetch = API js qui permet de faire 
 
 Dans cette exemple l'API renvoie une [Promise](https://putaindecode.io/fr/articles/js/es2015/promises/): une structure représentant une valeur potentielle. Si la promesse est remplie, les callbacks .then seront exécuté, dans le cas contraire c'est le callback .catch qui sera levé.
 
+Les promises ne permettent cependant pas de traiter de la donnée au fur et à mesure de son arrivé: elle est remplie une seule fois.
+
+C'est là que les observable arrivent à la rescousse.
+
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTgwMDc5MTgsNDU3NzEyMzNdfQ==
+eyJoaXN0b3J5IjpbLTgyNDU4NzgxMCw0NTc3MTIzM119
 -->
