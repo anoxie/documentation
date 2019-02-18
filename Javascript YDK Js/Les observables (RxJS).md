@@ -129,9 +129,10 @@ const button$ = Rx.Observable.fromEvent(document.getElementById("button")
 .scan(count => count +1, 0)
 .subscribe(clickCount => {
     // on met ça dans le DOM à chaque Changement
-    doucment.getElementById("count").innerHTML = "You clicked" + click
+    doucment.getElementById("count").innerHTML = "You clicked" + clickCount + "times." ;
+})
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTczNTMyMTYsMTMwNDc2NjQ3Miw0NT
-c3MTIzM119
+eyJoaXN0b3J5IjpbLTMxNTA5MzEwMSwxMzA0NzY2NDcyLDQ1Nz
+cxMjMzXX0=
 -->
