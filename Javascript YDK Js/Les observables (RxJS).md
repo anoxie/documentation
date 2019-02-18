@@ -104,8 +104,11 @@ Il s'agit d'un paradigme de programmation, qui repose sur l'émission de donnée
 
 Dans se paradigme on traite toutes les données, quelles qu'elles soient, de la même façon: au travers de flux. Un flux, c'est en gros une structure qui balance une ou plusieurs données dans le temps au travers d'observables.
 
+![enter image description here](https://i.imgur.com/NLqK4bF.png)
 
+Un flux c'est simplement de la donnée qui arrive de manière ordonné dans le temps. Un flux peut émettre 3 types de données :
+-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY1NTI0OTQsMTMwNDc2NjQ3Miw0NT
-c3MTIzM119
+eyJoaXN0b3J5IjpbNjU1NDM3NzkxLDEzMDQ3NjY0NzIsNDU3Nz
+EyMzNdfQ==
 -->
