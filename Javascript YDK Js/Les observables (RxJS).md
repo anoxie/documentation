@@ -213,11 +213,13 @@ ngOnInit(){
     );
 }
 
-
+ngOnDestroy(){
+    this.counterSubscription.unsubscribe();
+}
 } 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzkwOTQzNCwxODIxODAxOCwtMTE4Mj
-Q1OTQ0MCwtNjY3MzE3NTU1LDEzMDQ3NjY0NzIsNDU3NzEyMzNd
-fQ==
+eyJoaXN0b3J5IjpbNzc4OTM3OTAxLDE4MjE4MDE4LC0xMTgyND
+U5NDQwLC02NjczMTc1NTUsMTMwNDc2NjQ3Miw0NTc3MTIzM119
+
 -->
