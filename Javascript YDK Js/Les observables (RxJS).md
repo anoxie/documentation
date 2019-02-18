@@ -67,7 +67,7 @@ const observer = {
     complete: () => cosole.info("Complete !"), // une fonction à exécuter lorsque l'observable à fini
 };
 ```
-exemple d'implémentation d'un observable qui va réagir à chaque entré clavier et sera terminé quand l'utilisateur 
+exemple d'implémentation d'un observable qui va réagir à chaque entré clavier et sera terminé quand l'utilisateur pressera enter
 ```javascript
 const KeyboardObservable = {
   subscribe: observer => {
@@ -102,5 +102,5 @@ KeyboardObservable.subscribe({
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzU2ODcyMSw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbMTMwNDc2NjQ3Miw0NTc3MTIzM119
 -->
