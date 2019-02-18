@@ -19,7 +19,7 @@ git clone
 Cloner un repository à partir d’une adresse de repository
   
 ## Qu’est-ce qu’un bon commit :
-Il doit être atomique, il ne doit concerner qu’une seul chose, être le plus petit possible en restant cohérent. Il est possible d’atomiser les commits, même si l’un a effectué plusieurs modification, pour faire un commit pour chaque modification, par exemple l’implémentation d’un feature sera un commit, la correction de fautes d’orthographes en sera un autre, il est même possible dans la zone de staging de choisir des parties de fichier à joindre à un commit.
+Il doit être atomique, il ne doit concerner qu’une seule chose, être le plus petit possible en restant cohérent. Il est possible d’atomiser les commits, même si l’un a effectué plusieurs modifications, pour faire un commit pour chaque modification, par exemple l’implémentation d’un feature sera un commit, la correction de fautes d’orthographe en sera un autre, il est même possible dans la zone de staging de choisir des parties de fichiers à joindre à un commit.
 
 ## Un commit étape par étape :
 
@@ -32,7 +32,7 @@ pour copier un fichier ou un répertoire dans la zone de staging.
 ```bash
 git add .
 ```
-permet d’ajouter à l’index de git tout les fichiers du répertoire courant
+permets d’ajouter à l’index de git tous les fichiers du répertoire courant
   
 ```bash
 git commit -m “message”
@@ -254,5 +254,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5Mjg1MTE2OCwtMzg3NTc2OTg0XX0=
+eyJoaXN0b3J5IjpbLTEzNzc0ODQwNjgsLTM4NzU3Njk4NF19
 -->
