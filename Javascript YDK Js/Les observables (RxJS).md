@@ -25,11 +25,11 @@ logValue("How are you ?");
 //Hello world! 3second plus tard
 ```
 
-
+dans le second cas, l'exécution du code ne s'arrête pas à setTimeout, la fonction est lu et interprété, puis l'exécution du code se poursuit et reviens à 
 
 
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY3MzY0MzldfQ==
+eyJoaXN0b3J5IjpbMTk5MzI5MzQ0N119
 -->
