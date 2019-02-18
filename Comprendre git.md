@@ -52,7 +52,7 @@ permet de modifier le message du dernier commit, ne fonctionne que si le commit 
 ```bash
 git stash
 ```
-permet de mettre en attente des modifications en cours sur une branche en particulier, à fin d’effectuer par exemple d’autres modifications plus urgentes, sans créer de commits superflux
+permet de mettre en attente des modifications en cours sur une branche en particulier, à fin d’effectuer par exemple d’autres modifications plus urgentes, sans créer de commits superflus
   
 ```bash
 git stash pop
@@ -72,12 +72,12 @@ pour envoyer les commits vers un dépôt centralisé
 ```bash
 git pull origin master
 ```
-pour récupérer les modifications apporté sur le dépôts centralisé
+pour récupérer les modifications apportées sur le dépôts centralisé
   
 ```bash
 git blame <nom_du_fichier.extension>
 ```
-liste toutes les modifications effectué sur un fichier avec le début de la référence du commit correspondant, le nom et la date de la publication
+liste toutes les modifications effectuées sur un fichier avec le début de la référence du commit correspondant, le nom et la date de la publication
   
 ```bash
 git show <début_du_sha>
@@ -254,5 +254,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzQxNDIzLC0zODc1NzY5ODRdfQ==
+eyJoaXN0b3J5IjpbLTEyNzAzOTIyNDIsLTM4NzU3Njk4NF19
 -->
