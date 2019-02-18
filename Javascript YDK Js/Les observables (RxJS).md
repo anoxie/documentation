@@ -149,11 +149,18 @@ import 'rxjs/add/observable/interval';
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
-    styleUrls: ['./app.component.scss
+    styleUrls: ['./app.component.scss']
+})
+
+export class AppComponent implements OnInit {
+    ngOnInit() {
+        const counter = Observable.interval(1000);
+    }
+}
 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczOTg4NzQsMTMwNDc2NjQ3Miw0NTc3MT
-IzM119
+eyJoaXN0b3J5IjpbLTY2NzMxNzU1NSwxMzA0NzY2NDcyLDQ1Nz
+cxMjMzXX0=
 -->
