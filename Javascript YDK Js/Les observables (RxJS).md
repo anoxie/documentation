@@ -107,8 +107,12 @@ Dans se paradigme on traite toutes les données, quelles qu'elles soient, de la 
 ![enter image description here](https://i.imgur.com/NLqK4bF.png)
 
 Un flux c'est simplement de la donnée qui arrive de manière ordonné dans le temps. Un flux peut émettre 3 types de données :
--
+- une valeur
+- une erreur
+- un signal de fin
+
+## La bibliothèque RxJs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1NDM3NzkxLDEzMDQ3NjY0NzIsNDU3Nz
-EyMzNdfQ==
+eyJoaXN0b3J5IjpbLTY0MTc1NzQyNCwxMzA0NzY2NDcyLDQ1Nz
+cxMjMzXX0=
 -->
