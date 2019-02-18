@@ -55,10 +55,10 @@ fetch('https://api.github.com/users/wyeo") //fetch = API js qui permet de faire 
     .catch(logError)
 ```
 
-Dans cette exemple l'API renvoie une [Promise](https://putaindecode.io/fr/articles/js/es2015/promises/):
+Dans cette exemple l'API renvoie une [Promise](https://putaindecode.io/fr/articles/js/es2015/promises/): une structure représentant une valeur potentielle
 
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDI3OTQ4LDQ1NzcxMjMzXX0=
+eyJoaXN0b3J5IjpbODU3Mzk4MjcyLDQ1NzcxMjMzXX0=
 -->
