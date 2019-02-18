@@ -201,12 +201,18 @@ counterSubscription: Subscription;
 ngOnInit(){
     const counter = Observable.interval(1000);
     this.counterSubscription = counter.subscribe(
-    (value) => {
-         this.secondes = value;
-     },
-     (error) 
+        (value) => {
+           this.secondes = value;
+        },
+        (error) => {
+           console.log('Uh-oh, an error occured! : ' + error);
+        },
+     () => {
+         console.log('Observable complete!');
+     }
+     
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDMzOTc5NSwtNjY3MzE3NTU1LDEzMD
-Q3NjY0NzIsNDU3NzEyMzNdfQ==
+eyJoaXN0b3J5IjpbMTk0NTAyMzQyLC02NjczMTc1NTUsMTMwND
+c2NjQ3Miw0NTc3MTIzM119
 -->
