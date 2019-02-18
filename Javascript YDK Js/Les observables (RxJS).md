@@ -2,7 +2,7 @@
 
 > source :
 > https://putaindecode.io/fr/articles/js/observable/
-> https://putaindecode.io/fr/articles/js/observable/programmation-reactive/
+
 
 En JS, il est possible d'exécuter du code de manière synchrone (bloquante : l'exécution du code s'arrête jusqu'à la résolution de l'instruction) ou asynchrone (non-bloquante : quand une partie du code est susceptible de demander beaucoup de temps pour s'exécuter, il est possible de passer à la suivante, et d'y revenir quand son exécution sera terminé).
 
@@ -102,7 +102,9 @@ KeyboardObservable.subscribe({
 ## La programmation reactive avec RxJS
 
 >source :
->
+>https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular/5089331-observez-les-donnees-avec-rxjs
+> https://putaindecode.io/fr/articles/js/observable/programmation-reactive/
+
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 
 Dans se paradigme on traite toutes les données, quelles qu'elles soient, de la même façon: au travers de flux. Un flux, c'est en gros une structure qui balance une ou plusieurs données dans le temps au travers d'observables.
@@ -116,7 +118,12 @@ Un flux c'est simplement de la donnée qui arrive de manière ordonné dans le t
 
 ## La bibliothèque RxJs
 Il s'agit d'une implémentation en javascript de ReactiveX, qui vise à porter sous différents langage, les concepts de la programmation Reactive. Aussi appelé Lodash des données asynchrone.
+
+exemple :
+```js
+const Rx = require('r
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODA2NzU4OCwxMzA0NzY2NDcyLDQ1Nz
-cxMjMzXX0=
+eyJoaXN0b3J5IjpbLTExNjUwNzk3NDMsMTMwNDc2NjQ3Miw0NT
+c3MTIzM119
 -->
