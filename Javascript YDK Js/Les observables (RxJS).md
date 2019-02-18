@@ -27,11 +27,14 @@ logValue("How are you ?");
 
 dans le second cas, l'exécution du code ne s'arrête pas à setTimeout, la fonction est lu et interprété, puis l'exécution du code se poursuit et reviens à logValue une fois le temps écoulé, ici 3 secondes.
 
-En JS les fonctions sont dites agnostique, c'est à dire qu'elles peuvent être exécuté indifférement de manière synchrone, ou asynchrone, c'est le contexte qui déterminera la manière dont elle sera e
+En JS les fonctions sont dites agnostique, c'est à dire qu'elles peuvent être exécuté indifféremment de manière synchrone, ou asynchrone, c'est le contexte qui déterminera la manière dont elle sera exécuté.
+
+## Intérêt des appels asynchrone
+Typiquement tout ce qui va avoir un rapport avec des appels réseaux
 
 
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjMzMDY0OV19
+eyJoaXN0b3J5IjpbLTY5ODMzMDgzMV19
 -->
