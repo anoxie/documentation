@@ -64,11 +64,43 @@ C'est là que les observable arrivent à la rescousse. Un observable est un obje
 const observer = {
     next: val => console.log(val), //une fonction à exécuter à chaque nouvel évenement
     error: err => console.error(err), // une fonction à exécuter en cas d'erreur
-    complete: () => cosole.info("Complete !"), // une fonction à exécuter 
+    complete: () => cosole.info("Complete !"), // une fonction à exécuter lorsque l'observable à fini
+};
+```
+exemple d'implémentation d'un observable qui va réagir à chaque entré clavier et sera terminé quand l'utilisateur 
+```javascript
+const KeyboardObservable = {
+  subscribe: observer => {
+    const handleKeyUp = event => {
+      if (typeof event.keyCode === "number") {
+        if (event.keyCode === 13 /* Enter */) {
+          document.removeEventListener("keyup", handleKeyUp);
+          observer.complete();
+        } else {
+          observer.next(event.keyCode);
+        }
+      } else {
+        observer.error(new Error("No keyCode found"));
+      }
+    };
+    document.addEventListener("keyup", handleKeyUp);
+    // subscribe retourne la "soucription", contenant une fonction pour la stopper
+    return {
+      unsubscribe: () => document.removeEventListener("keyup", handleKeyUp),
+    };
+  },
+};
+
+let keys = [];
+KeyboardObservable.subscribe({
+  next: keyCode => keys.push(String.fromCharCode(keyCode)),
+  error: error => console.error(error),
+  complete: () => alert(keys.join("")),
+});
 ```
 
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5MzA2NDEzLDQ1NzcxMjMzXX0=
+eyJoaXN0b3J5IjpbMTQwNzU2ODcyMSw0NTc3MTIzM119
 -->
