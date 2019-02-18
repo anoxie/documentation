@@ -163,7 +163,9 @@ export class AppComponent implements OnInit {
 	        console.log('Uh-oh, an error occurred! :' + error);
 	    },
 	    () => {
-	        console.log('
+	        console.log('Observable complete!');
+	    }
+	);
     }
 }
 
@@ -188,6 +190,6 @@ template :
 </div>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQzNjk2NzIsLTY2NzMxNzU1NSwxMz
-A0NzY2NDcyLDQ1NzcxMjMzXX0=
+eyJoaXN0b3J5IjpbNTUyNDMzNDAxLC02NjczMTc1NTUsMTMwND
+c2NjQ3Miw0NTc3MTIzM119
 -->
