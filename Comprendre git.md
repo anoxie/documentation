@@ -163,13 +163,13 @@ Quand un conflit apparaît, git crée un fichier avec l’extension .md, qu’il
 ```bash
 git reflog
 ```
-permet de suivre les déplacements de la référence HEAD, et de retrouver les références de commit qui n’ont pas été intégré à une branch.
+permet de suivre les déplacements de la référence HEAD, et de retrouver les références de commit qui n’ont pas encore été intégré à une branch.
 
 ## Comprendre la commande checkout
 
 Il y a deux façons d’utiliser la commande git checkout :
 
--   sans spécifier de fichier ou de répertoire, git va simplement déplacer la référence HEAD, et mettre à jour les deux arborescences de la zone de staging et du Working Directory, ce qui permet de revenir à une version antérieur. Si des modifications sont en cours, elles ne seront pas écrasées, et Git tentera de fusionner la version courante du fichier avec celle correspondant à la nouvelle position de HEAD.    
+-   sans spécifier de fichier ou de répertoire, git va simplement déplacer la référence HEAD, et mettre à jour les deux arborescences de la zone de staging et du Working Directory, ce qui permet de revenir à une version antérieure. Si des modifications sont en cours, elles ne seront pas écrasées, et Git tentera de fusionner la version courante du fichier avec celle correspondant à la nouvelle position de HEAD.    
 -   en spécifiant un dossier ou un répertoire, restaure les fichiers passé à la commande, en écrasant les versions du working directory par ceux en staging.
 
 ## Commandes checkout utiles :
@@ -254,5 +254,6 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODM2NjI5NSwtMzg3NTc2OTg0XX0=
+eyJoaXN0b3J5IjpbMTAxMjQ0MzI4MiwxOTA4MzY2Mjk1LC0zOD
+c1NzY5ODRdfQ==
 -->
