@@ -42,7 +42,7 @@ pour sauvegarder la zone de staging dans le dépôt git et créer un nouveau com
 ```bash
 git commit -a -m “message”
 ```
-permet de faire git add et git commit -m “message” en une seul fois, cette commande est possible du moment que les fichiers modifiés ont déjà été ajouté à l’index
+permet de faire git add et git commit -m “message” en une seule fois, cette commande est possible du moment que les fichiers modifiés ont déjà été ajouté à l’index
 
 ```bash
 git commit --amend -m “votre nouveau message”  
@@ -52,7 +52,7 @@ permet de modifier le message du dernier commit, ne fonctionne que si le commit 
 ```bash
 git stash
 ```
-permet de mettre en attente des modifications en cours sur une branche en particulier, à fin d’effectuer par exemples d’autres modifications plus urgentes, sans créer de commits superflux
+permets de mettre en attente des modifications en cours sur une branche en particulier, à fin d’effectuer par exemples d’autres modifications plus urgentes, sans créer de commits superflux
   
 ```bash
 git stash pop
@@ -254,5 +254,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc0ODQwNjgsLTM4NzU3Njk4NF19
+eyJoaXN0b3J5IjpbMTM0NzgzNjE4NCwtMzg3NTc2OTg0XX0=
 -->
