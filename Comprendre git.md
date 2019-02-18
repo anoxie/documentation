@@ -29,109 +29,88 @@ Il doit être atomique, il ne doit concerner qu’une seul chose, être le plus 
 git add <nom_de_fichier>
 ```
 pour copier un fichier ou un répertoire dans la zone de staging.
-
 ```bash
 git add .
 ```
 permet d’ajouter à l’index de git tout les fichiers du répertoire courant
-
   
 ```bash
 git commit -m “message”
 ```
 pour sauvegarder la zone de staging dans le dépôt git et créer un nouveau commit
-
   
 ```bash
 git commit -a -m “message”
 ```
 permet de faire git add et git commit -m “message” en une seul fois, cette commande est possible du moment que les fichiers modifiés ont déjà été ajouté à l’index
 
-  
 ```bash
 git commit --amend -m “votre nouveau message”  
 ```
 permet de modifier le message du dernier commit, ne fonctionne que si le commit n’a pas été push
-
   
 ```bash
 git stash
 ```
 permet de mettre en attente des modifications en cours sur une branche en particulier, à fin d’effectuer par exemples d’autres modifications plus urgentes, sans créer de commits superflux
-
   
 ```bash
 git stash pop
 ```
 permet de récupérer les changements précédemment mis en stash sur la branch /!\ pop vide le stash pour conserver les modifications dans le stach, il faut faire :
-
   
 ```bash
 git stash apply
 ```
 permet de récupérer ce qui est stocké dans le stash sans le supprimer.
-
   
 ```bash
 git push origin master
 ```
 pour envoyer les commits vers un dépôt centralisé
-
   
 ```bash
 git pull origin master
 ```
 pour récupérer les modifications apporté sur le dépôts centralisé
-
   
 ```bash
 git blame <nom_du_fichier.extension>
 ```
 liste toutes les modifications effectué sur un fichier avec le début de la référence du commit correspondant, le nom et la date de la publication
-
   
 ```bash
 git show <début_du_sha>
 ```
 Permet de voir le message relatif à un commit
-
   
 ```bash
 git revert <SHA1_commit>
 ```
 va créer un commit qui fait l’inverse du commit en question, ce qui va créer un nouveau commit.
-
   
 ```bash
 git reset
-
+```
 pour copier un fichier du dépôt git vers la zone de staging
 
-  
 ```bash
 git checkout
 ```
 pour copier un fichier de la zone de staging vers la zone de workflow et donc supprimer les modification en cours
-
-  
 ```bash
 git diff
 ```
 pour visualiser les modifications entre les répertoires de travail et la zone de staging
-
   
 ```bash
 git diff --cached ou git diff --staged
 ```
 pour visualiser les modifications entre la zone de staging et le dernier commit
-
-  
 ```bash
 git status
 ```
 pour visualiser dans quelle zone de git sont les fichiers
-
-  
 ```bash
 git log
 ```
@@ -351,5 +330,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5MzUwMTEyXX0=
+eyJoaXN0b3J5IjpbLTE0MTQ3NTI4NDJdfQ==
 -->
