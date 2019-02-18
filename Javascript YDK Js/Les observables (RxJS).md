@@ -342,10 +342,14 @@ ngOnDestroy() {
 
 ## Opérateurs
 
-Il existe de très nombreux opérateur dans l'API RxJS, no
+Il existe de très nombreux opérateur dans l'API RxJS, beaucoup permettent de retraiter les données avant de les passer au service de souscription.
+
+- map() : modifie les valeurs reçues - peut effectuer des calculs sur des chiffres, transformer du texte, créer des objets...
+- filter() : 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4NjAxNjA4LDIwMDg3NDE4MDMsLTEwMj
-U2MTUwODQsMTgyMTgwMTgsLTExODI0NTk0NDAsLTY2NzMxNzU1
-NSwxMzA0NzY2NDcyLDQ1NzcxMjMzXX0=
+eyJoaXN0b3J5IjpbMTYxNjU5NDIyNiwyMDA4NzQxODAzLC0xMD
+I1NjE1MDg0LDE4MjE4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1
+NTUsMTMwNDc2NjQ3Miw0NTc3MTIzM119
 -->
