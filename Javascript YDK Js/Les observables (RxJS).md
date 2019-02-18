@@ -297,11 +297,14 @@ import { Subscription } from 'rxjs/Subscription';
     templateUrl: './appareil-view.component.html',
     styleUrl: ['./appareil-view.component.scss']
 })
-export class AppareilViewComponent implements
+export class AppareilViewComponent implements OnInit, OnDestroy {
+
+appareils: any[];
+appareilSu
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA1MDg3LC0xMDI1NjE1MDg0LDE4Mj
-E4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1NTUsMTMwNDc2NjQ3
-Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbMTM4NTkzNzU5MCwtMTAyNTYxNTA4NCwxOD
+IxODAxOCwtMTE4MjQ1OTQ0MCwtNjY3MzE3NTU1LDEzMDQ3NjY0
+NzIsNDU3NzEyMzNdfQ==
 -->
