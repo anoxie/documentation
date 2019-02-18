@@ -196,9 +196,17 @@ De plus la donnée retourner par le service souscrit n'est pas stocké dans une 
 ```ts
 export class AppComponent implmeents OnInit {
 secondes: number;
-counterSubscriptio
+counterSubscription: Subscription;
+
+ngOnInit(){
+    const counter = Observable.interval(1000);
+    this.counterSubscription = counter.subscribe(
+    (value) => {
+         this.secondes = value;
+     },
+     (error) 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNzIzODMzLC02NjczMTc1NTUsMTMwND
-c2NjQ3Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbLTkwMDMzOTc5NSwtNjY3MzE3NTU1LDEzMD
+Q3NjY0NzIsNDU3NzEyMzNdfQ==
 -->
