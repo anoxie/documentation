@@ -13,12 +13,17 @@ console.log(value)
 }
 
 // exécution synchrone
-const 
+const arrayOfValue = [1,2,3,4,5];
+
+arrayOfValue.forEach(logValue);
+
+// exécution asynchrone
+setTimeout(logValue, 3000, "Hello
 ```
 
 
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyNjEzNDJdfQ==
+eyJoaXN0b3J5IjpbLTEwMDA4NTg0MV19
 -->
