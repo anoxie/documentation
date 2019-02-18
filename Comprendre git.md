@@ -97,7 +97,7 @@ pour copier un fichier du dépôt git vers la zone de staging
 ```bash
 git checkout
 ```
-pour copier un fichier de la zone de staging vers la zone de workflow et donc supprimer les modification en cours
+pour copier un fichier de la zone de staging vers la zone de workflow et donc supprimer les modifications en cours
 ```bash
 git diff
 ```
@@ -116,7 +116,7 @@ git log
 ```
 pour visualiser l’historique du projet
 # Qu’est-ce qu’une branch ?
-Une branche n’est qu’un étiquette qui pointe vers un commit. Identifier par une référence sha1. La branch master étant par défaut la branche principale. Head est une référence spéciale qui pointe vers le commit qui sera le parent du prochain commit, typiquement indique la branch dans laquelle on souhaite travailler.
+Une branche n’est qu’une étiquette qui pointe vers un commit. Identifier par une référence sha1. La branch master étant par défaut la branche principale. Head est une référence spéciale qui pointe vers le commit qui sera le parent du prochain commit, typiquement indique la branch dans laquelle on souhaite travailler.
 
 Chaque branche permet de créer un flow de développement parallèle
 ## Manipuler les branches :
@@ -254,5 +254,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzAzOTIyNDIsLTM4NzU3Njk4NF19
+eyJoaXN0b3J5IjpbLTE2NDk2NzkxMDYsLTM4NzU3Njk4NF19
 -->
