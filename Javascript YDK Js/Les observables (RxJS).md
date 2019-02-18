@@ -142,13 +142,18 @@ Un observable est un objet qui émet des informations auxquelles on souhaite ré
 Exemple simple d'intégration :
 
 ```ts
-import 
-import {Observable } from 'rxjs/Observable';
+import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/interval';
+
+@Component({
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss
 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzAzMjYzNywxMzA0NzY2NDcyLDQ1Nz
-cxMjMzXX0=
+eyJoaXN0b3J5IjpbNTczOTg4NzQsMTMwNDc2NjQ3Miw0NTc3MT
+IzM119
 -->
