@@ -121,9 +121,13 @@ Il s'agit d'une implémentation en javascript de ReactiveX, qui vise à porter s
 
 exemple :
 ```js
-const Rx = require('r
+const Rx = require('rxjs')
+
+//on écoute les clics
+const button$ = Rx.Observable.fromEvent(document.getElementById("button")
+//scan est l'équivalent de reduce; il va garder l'accumulateur et retourner
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjUwNzk3NDMsMTMwNDc2NjQ3Miw0NT
-c3MTIzM119
+eyJoaXN0b3J5IjpbMjAzNzY4MzUzNSwxMzA0NzY2NDcyLDQ1Nz
+cxMjMzXX0=
 -->
