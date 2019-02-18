@@ -194,7 +194,10 @@ l'implémentation ci-dessus pose un problème dans le sens ou elle ne s'arrête 
 
 De plus la donnée retourner par le service souscrit n'est pas stocké dans une variable. Pour y remédier il faut réaliser l'implémentation suivante :
 ```ts
-export class AppComponent implmeents OnInit {
+import { OnDestroy } from '@angular/core';
+import { subscri
+
+export class AppComponent implements OnInit, OnDestroy {
 secondes: number;
 counterSubscription: Subscription;
 
@@ -219,7 +222,7 @@ ngOnDestroy(){
 } 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4OTM3OTAxLDE4MjE4MDE4LC0xMTgyND
-U5NDQwLC02NjczMTc1NTUsMTMwNDc2NjQ3Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbMjIzMDA1NzAsMTgyMTgwMTgsLTExODI0NT
+k0NDAsLTY2NzMxNzU1NSwxMzA0NzY2NDcyLDQ1NzcxMjMzXX0=
 
 -->
