@@ -330,13 +330,17 @@ onEteindre(){
     if(confirm('Etes-vous sûr de vouloir éteindre tous vos appareils ?')){
         this.appareilService.switchOffAll();
     } else {
-        return
+        return null;
     }
+}
+
+ngOnDestroy() {
+    this.appareilSubscription.unsubscribe();
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTQ2MTQyMCwtMTAyNTYxNTA4NCwxOD
+eyJoaXN0b3J5IjpbMjAwODc0MTgwMywtMTAyNTYxNTA4NCwxOD
 IxODAxOCwtMTE4MjQ1OTQ0MCwtNjY3MzE3NTU1LDEzMDQ3NjY0
 NzIsNDU3NzEyMzNdfQ==
 -->
