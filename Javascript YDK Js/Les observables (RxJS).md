@@ -236,11 +236,24 @@ Pour mettre en place un subject, il faut réaliser plusieurs étapes :
 ```ts
 private appareils = [
      {
-         id
+         id: 1,
+         name: 'Machine à laver',
+         status: 'éteint'
+     },
+     {
+         id: 2,
+         name: 'Frigo',
+         status: 'allumé'
+     },
+     {
+         id: 3,
+         name: 'Ordinateur',
+         status: 'éteint'
+      
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMDc1MzcxLC0xMDI1NjE1MDg0LDE4Mj
-E4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1NTUsMTMwNDc2NjQ3
-Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbNTQ3NDU5NTcsLTEwMjU2MTUwODQsMTgyMT
+gwMTgsLTExODI0NTk0NDAsLTY2NzMxNzU1NSwxMzA0NzY2NDcy
+LDQ1NzcxMjMzXX0=
 -->
