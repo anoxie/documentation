@@ -230,10 +230,17 @@ Pour mettre en place un subject, il faut réaliser plusieurs étapes :
 - mettre en private les données relatives au service que l'on veut implémenter
 - créer un Subject dans le service,
 - créer une méthode qui fait émettre ces données par le Subject pour mettre à jour toutes les méthodes qui en ont besoin
-- 
+- souscrire à ce Subject pour recevoir les données émises, et émettre les données
+- implémenter OnDestroy pour détruire la souscription
+
+```ts
+private appareils = [
+     {
+         id
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ1NDkxMDIsLTEwMjU2MTUwODQsMT
-gyMTgwMTgsLTExODI0NTk0NDAsLTY2NzMxNzU1NSwxMzA0NzY2
-NDcyLDQ1NzcxMjMzXX0=
+eyJoaXN0b3J5IjpbODgyMDc1MzcxLC0xMDI1NjE1MDg0LDE4Mj
+E4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1NTUsMTMwNDc2NjQ3
+Miw0NTc3MTIzM119
 -->
