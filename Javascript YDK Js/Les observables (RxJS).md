@@ -227,10 +227,13 @@ Il existe un type d'observable qui permet de réagir à de nouvelles information
 
 Pour mettre en place un subject, il faut réaliser plusieurs étapes :
 
-- mettre en private les données relatives au service
+- mettre en private les données relatives au service que l'on veut implémenter
+- créer un Subject dans le service,
+- créer une méthode qui fait émettre ces données par le Subject pour mettre à jour toutes les méthodes qui en ont besoin
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk3MTc2NDIsLTEwMjU2MTUwODQsMT
+eyJoaXN0b3J5IjpbLTExODQ1NDkxMDIsLTEwMjU2MTUwODQsMT
 gyMTgwMTgsLTExODI0NTk0NDAsLTY2NzMxNzU1NSwxMzA0NzY2
 NDcyLDQ1NzcxMjMzXX0=
 -->
