@@ -188,7 +188,7 @@ git checkout <nom_de_branch>
 permet de déplacer la référence HEAD, notamment vers une nouvelle branche et donc de changer de branch
 
   
-
+```bash
 git checkout -b <nom_de_branch>
 
 permet de cumuler les deux git branch et git checkout
@@ -219,9 +219,9 @@ Des conflits peuvent survenir durant la fusion obligeant à y intervenir manuell
 En cas de conflit, git interrompt le merge et insère des marqueurs dans les fichiers conflictuels. Il faut éditer ces fichiers manuellement (ou à l’aide d’une interface spécifique), avant de poursuivre la fusion.
 
   
-
+```bash
 git help merge
-
+```
 Pour le protocole précis de résolution de conflits.  
   
 Quand un conflit apparaît, git crée un fichier avec l’extension .md, qu’il convient d’éditer, pour choisir le code à conserver. Une fois sauvegardé il suffit de lancer un git commit, qui se chargera de détecter la résolution de conflit et générera un message automatique.
@@ -229,9 +229,9 @@ Quand un conflit apparaît, git crée un fichier avec l’extension .md, qu’il
   
 
 ## L’état DETACHED HEAD
-
+```bash
 git reflog
-
+```
 permet de suivre les déplacements de la référence HEAD, et de retrouver les références de commit qui n’ont pas été intégré à une branch.
 
   
@@ -250,21 +250,21 @@ Il y a deux façons d’utiliser la commande git checkout :
 ## Commandes checkout utiles :
 
   
-
+```bash
 git checkout .
-
+```
 Supprime toutes les modifications qui ne sont pas dans le staging
 
   
-
+```bash
 git checkout <nom_de_fichier/nom_de_repertoire>
-
+```
 Supprime toutes les modifications de fichiers contenues dans le fichier ou le répertoire
 
   
 
 git checkout <branch> <nom_de_fichier/nom_de_repertoire>
-
+```
 Récupère dans le rép. de travail le fichier ou répertoire tel qu’il qu’il était dans la branch
 
   
@@ -276,21 +276,21 @@ Reset à un fonctionnement similaire à checkout, sauf qu’il déplace la réf�
   
 
 On peut préciser la zone d’action de reset comme suit :
-
+```bash
 git reset <branch> --soft
-
+```
 Déplace HEAD
 
   
-
+```bash
 git reset <branch> --mixed
-
+```
 Déplace HEAD, et met à jour le staging, c’est le mode par défaut
 
   
-
+```bash
 git reset <branch> --hard
-
+```
 Déplace HEAD, met à jour le staging et le répertoire de travail
 
   
@@ -298,21 +298,21 @@ Déplace HEAD, met à jour le staging et le répertoire de travail
 Avec l’option --hard, le répertoire de travail est écrasé, même s’il y a des modifications en cours.
 
   
-
+```bash
 git reset HEAD^
-
+```
 Permet de supprimer le dernier commit
 
   
-
+```bash
 git reset HEAD^^
-
+```
 permet de supprimer les 2 derniers commits
 
   
-
+```bash
 git reset HEAD~<number>
-
+```
 permet de revenir de <number> commit en arrière.
 
   
@@ -322,9 +322,9 @@ En précisant un chemin de fichier, la référence HEAD, n’est pas déplacé, 
   
 
 ## Visualiser l’historique
-
+```bash
 git log -p
-
+```
 permet de voir le log avec les
 
   
@@ -363,5 +363,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjA4MzY0OF19
+eyJoaXN0b3J5IjpbMTIwNzA0ODgxMl19
 -->
