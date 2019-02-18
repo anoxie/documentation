@@ -316,12 +316,21 @@ constructor(private appareilService: AppareilService){ }
 ngOnInit() {
     this.appareilSubscription = this.appareilService.appareilSubject.subscribe(
         (appareils: any[]) => {
-            this.appa
+            this.appareils = appareils;
+        }
+    );
+    this.appareilService.emitAppareilSubject();
 }
+
+onAllumer(){
+    this.appareilService.switchOnAll();
+}
+
+onEtei
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTIzNDMxOCwtMTAyNTYxNTA4NCwxOD
+eyJoaXN0b3J5IjpbMTI3Nzc1NTczMiwtMTAyNTYxNTA4NCwxOD
 IxODAxOCwtMTE4MjQ1OTQ0MCwtNjY3MzE3NTU1LDEzMDQ3NjY0
 NzIsNDU3NzEyMzNdfQ==
 -->
