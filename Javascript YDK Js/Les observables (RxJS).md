@@ -125,9 +125,13 @@ const Rx = require('rxjs')
 
 //on écoute les clics
 const button$ = Rx.Observable.fromEvent(document.getElementById("button")
-//scan est l'équivalent de reduce; il va garder l'accumulateur et retourner
+//scan est l'équivalent de reduce; il va garder l'accumulateur et retourner le nouveau à chaque clic
+.scan(count => count +1, 0)
+.subscribe(clickCount => {
+    // on met ça dans le DOM à chaque Changement
+    doucment.getElementById("count").innerHTML = "You clicked" + click
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzY4MzUzNSwxMzA0NzY2NDcyLDQ1Nz
-cxMjMzXX0=
+eyJoaXN0b3J5IjpbLTE5NTczNTMyMTYsMTMwNDc2NjQ3Miw0NT
+c3MTIzM119
 -->
