@@ -112,7 +112,8 @@ Un flux c'est simplement de la donnée qui arrive de manière ordonné dans le t
 - un signal de fin
 
 ## La bibliothèque RxJs
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTc1NzQyNCwxMzA0NzY2NDcyLDQ1Nz
+eyJoaXN0b3J5IjpbLTUxNDk3NTQyNiwxMzA0NzY2NDcyLDQ1Nz
 cxMjMzXX0=
 -->
