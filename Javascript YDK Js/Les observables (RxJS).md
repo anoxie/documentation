@@ -156,6 +156,14 @@ export class AppComponent implements OnInit {
     ngOnInit() {
         const counter = Observable.interval(1000);
 	counter.subscribe(
+	    (value) => {
+	        this.secondes = value;
+	    },
+	    (error) => {
+	        console.log('Uh-oh, an error occurred! :' + error);
+	    },
+	    () => {
+	        console.log('
     }
 }
 
@@ -180,6 +188,6 @@ template :
 </div>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODU1NTM1OSwtNjY3MzE3NTU1LDEzMD
-Q3NjY0NzIsNDU3NzEyMzNdfQ==
+eyJoaXN0b3J5IjpbLTEzNDQzNjk2NzIsLTY2NzMxNzU1NSwxMz
+A0NzY2NDcyLDQ1NzcxMjMzXX0=
 -->
