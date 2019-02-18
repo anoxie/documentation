@@ -32,7 +32,7 @@ pour copier un fichier ou un répertoire dans la zone de staging.
 ```bash
 git add .
 ```
-permets d’ajouter à l’index de git tous les fichiers du répertoire courant
+permet d’ajouter à l’index de git tous les fichiers du répertoire courant
   
 ```bash
 git commit -m “message”
@@ -52,7 +52,7 @@ permet de modifier le message du dernier commit, ne fonctionne que si le commit 
 ```bash
 git stash
 ```
-permets de mettre en attente des modifications en cours sur une branche en particulier, à fin d’effectuer par exemples d’autres modifications plus urgentes, sans créer de commits superflux
+permet de mettre en attente des modifications en cours sur une branche en particulier, à fin d’effectuer par exemple d’autres modifications plus urgentes, sans créer de commits superflux
   
 ```bash
 git stash pop
@@ -254,5 +254,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzgzNjE4NCwtMzg3NTc2OTg0XX0=
+eyJoaXN0b3J5IjpbMTkwNzQxNDIzLC0zODc1NzY5ODRdfQ==
 -->
