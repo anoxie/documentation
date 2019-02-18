@@ -32,7 +32,7 @@ En JS les fonctions sont dites agnostique, c'est à dire qu'elles peuvent être 
 ## Intérêt des appels asynchrone
 Typiquement tout ce qui va avoir un rapport avec des appels réseaux, les téléchargement de fichiers dont les durées dépendent de paramètre inconnu au moment du développement de l'application.
 
-exemple le téléchargement d'un fichier avec node.js
+exemple le téléchargement d'un fichier avec node.js, qui propose l'API suivante : ``` fs.readFile(fileToRead, options, callback) ```
 ```js
 fs.readFile("./alphabet.txt, {encoding: "utf-8"}, {err, data) => {
     if (err){
@@ -47,5 +47,5 @@ fs.readFile("./alphabet.txt, {encoding: "utf-8"}, {err, data) => {
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjkyOTgyMV19
+eyJoaXN0b3J5IjpbMjQ4MjE2NDA0XX0=
 -->
