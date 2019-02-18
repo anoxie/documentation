@@ -345,11 +345,12 @@ ngOnDestroy() {
 Il existe de très nombreux opérateur dans l'API RxJS, beaucoup permettent de retraiter les données avant de les passer au service de souscription.
 
 - map() : modifie les valeurs reçues - peut effectuer des calculs sur des chiffres, transformer du texte, créer des objets...
-- filter() : 
+- filter() : filtre les donnée reçu, via la fonction qu'on lui passe en paramètre.
+- throttleTime() : impose un délai minimum entre deux valeurs, si un observable change trop fréquemment, on peut décider de ne mettre a jour
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjU5NDIyNiwyMDA4NzQxODAzLC0xMD
-I1NjE1MDg0LDE4MjE4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1
-NTUsMTMwNDc2NjQ3Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbLTE3NjE2ODgyOTEsMjAwODc0MTgwMywtMT
+AyNTYxNTA4NCwxODIxODAxOCwtMTE4MjQ1OTQ0MCwtNjY3MzE3
+NTU1LDEzMDQ3NjY0NzIsNDU3NzEyMzNdfQ==
 -->
