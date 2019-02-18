@@ -160,8 +160,13 @@ export class AppComponent implements OnInit {
 
 ```
 
-
+template :
+```html
+<ul class="nav navbar-nav">
+    <li routerLinkActive="active">
+        <a
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQyODk4MzMsLTY2NzMxNzU1NSwxMz
-A0NzY2NDcyLDQ1NzcxMjMzXX0=
+eyJoaXN0b3J5IjpbMjg2OTU2NDEzLC02NjczMTc1NTUsMTMwND
+c2NjQ3Miw0NTc3MTIzM119
 -->
