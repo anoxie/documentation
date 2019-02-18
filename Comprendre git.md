@@ -191,53 +191,35 @@ Récupère dans le rép. de travail le fichier ou répertoire tel qu’il qu’i
 
 Reset à un fonctionnement similaire à checkout, sauf qu’il déplace la référence de la branch courante en plus de déplacer la référence HEAD.
 
-  
-
 On peut préciser la zone d’action de reset comme suit :
 ```bash
 git reset <branch> --soft
 ```
 Déplace HEAD
-
-  
 ```bash
 git reset <branch> --mixed
 ```
 Déplace HEAD, et met à jour le staging, c’est le mode par défaut
-
-  
 ```bash
 git reset <branch> --hard
 ```
 Déplace HEAD, met à jour le staging et le répertoire de travail
 
-  
-
 Avec l’option --hard, le répertoire de travail est écrasé, même s’il y a des modifications en cours.
-
-  
 ```bash
 git reset HEAD^
 ```
 Permet de supprimer le dernier commit
-
-  
 ```bash
 git reset HEAD^^
 ```
 permet de supprimer les 2 derniers commits
-
-  
 ```bash
 git reset HEAD~<number>
 ```
 permet de revenir de <number> commit en arrière.
 
-  
-
 En précisant un chemin de fichier, la référence HEAD, n’est pas déplacé, les modifications seront limitées au chemin de fichier spécifié.
-
-  
 
 ## Visualiser l’historique
 ```bash
@@ -245,23 +227,14 @@ git log -p
 ```
 permet de voir le log avec les
 
-  
-
 ## Ignorer des fichiers .gitignore
 
 Pour des raisons de sécurité, il est primordiale d’éviter certain fichiers dans git, tels que :
-
 -   tout les fichiers de configuration (config, database, env.,...)
-    
 -   les fichiers et dossiers temporaires (tmp, temps/…)
+-   les fichiers inutiles comme ceux créés par votre IDE ou votre OS
     
--   les fichiers inutiles comme ceux créers par votre IDE ou votre OS
-    
-
-NE JAMAIS VERSIONNER DE VARIABLE DE CONFIGURATIONS tel que mot de passes, clé secètes,...
-
-  
-  
+NE JAMAIS VERSIONNER DE VARIABLE DE CONFIGURATIONS tel que mot de passes, clé secrètes,...
 
 # Sources :
 
@@ -281,5 +254,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzU3Njk4NF19
+eyJoaXN0b3J5IjpbLTIzOTE1MTk2LC0zODc1NzY5ODRdfQ==
 -->
