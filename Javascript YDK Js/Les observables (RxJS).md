@@ -42,10 +42,10 @@ fs.readFile("./alphabet.txt, {encoding: "utf-8"}, {err, data) => {
     }
 })
 ```
-
+Dans cette exemple, l'API va lancer le téléchargme
 
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4MjE2NDA0XX0=
+eyJoaXN0b3J5IjpbODE0NDg1ODI0XX0=
 -->
