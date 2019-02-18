@@ -165,40 +165,27 @@ git reflog
 ```
 permet de suivre les déplacements de la référence HEAD, et de retrouver les références de commit qui n’ont pas été intégré à une branch.
 
-  
-
 ## Comprendre la commande checkout
 
 Il y a deux façons d’utiliser la commande git checkout :
 
--   sans spécifier de fichier ou de répertoire, git va simplement déplacer la référence HEAD, et mettre à jour les deux arborescences de la zone de staging et du Working Directory, ce qui permet de revenir à une version antérieur. Si des modifications sont en cours, elles ne seront pas écrasées, et Git tentera de fusionner la version courante du fichier avec celle correspondant à la nouvelle position de HEAD.
-    
+-   sans spécifier de fichier ou de répertoire, git va simplement déplacer la référence HEAD, et mettre à jour les deux arborescences de la zone de staging et du Working Directory, ce qui permet de revenir à une version antérieur. Si des modifications sont en cours, elles ne seront pas écrasées, et Git tentera de fusionner la version courante du fichier avec celle correspondant à la nouvelle position de HEAD.    
 -   en spécifiant un dossier ou un répertoire, restaure les fichiers passé à la commande, en écrasant les versions du working directory par ceux en staging.
-    
-
-  
 
 ## Commandes checkout utiles :
-
-  
 ```bash
 git checkout .
 ```
 Supprime toutes les modifications qui ne sont pas dans le staging
 
-  
 ```bash
 git checkout <nom_de_fichier/nom_de_repertoire>
 ```
 Supprime toutes les modifications de fichiers contenues dans le fichier ou le répertoire
-
-  
-
+```bash
 git checkout <branch> <nom_de_fichier/nom_de_repertoire>
 ```
 Récupère dans le rép. de travail le fichier ou répertoire tel qu’il qu’il était dans la branch
-
-  
 
 ## Comprendre la commande git reset
 
@@ -294,5 +281,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTIyMjMyXX0=
+eyJoaXN0b3J5IjpbLTM4NzU3Njk4NF19
 -->
