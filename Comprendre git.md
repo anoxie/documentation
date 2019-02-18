@@ -190,7 +190,7 @@ permet de déplacer la référence HEAD, notamment vers une nouvelle branche et 
   
 ```bash
 git checkout -b <nom_de_branch>
-
+```
 permet de cumuler les deux git branch et git checkout
 
   
@@ -203,12 +203,14 @@ Si les branches, permettent de travailler en parallèle sur différentes parties
 
 ## Merge étape par étape :
 
--   on se place sur la branche qui va “recevoir” les modifications de l’autre branche avec git checkout <nom_de_branch>
+-   on se place sur la branche qui va “recevoir” les modifications de l’autre branche avec ``` git checkout <nom_de_branch>```
     
--   on fusionne avec git merge <nom_de_branch_a_fusionner>
+-   on fusionne avec git merge ```<nom_de_branch_a_fusionner>
     
--   une fois fusionné on supprime la branch devenue inutile avec git branch -d test
-    
+-   une fois fusionné on supprime la branch devenue inutile avec 
+```bash
+git branch -d test
+```    
 
   
 
@@ -363,5 +365,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzA0ODgxMl19
+eyJoaXN0b3J5IjpbMTc1Nzg4NDg4MF19
 -->
