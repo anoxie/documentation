@@ -287,12 +287,16 @@ switchOffOne(i:number) {
 ```
 
 dans le component utilisant le service :
-```
+```ts
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { AppareilService } from '../services/appareil.service';
+import { Subscription } from 'rxjs/Subscription';
 
+@
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzE0NjEyNiwtMTAyNTYxNTA4NCwxOD
+eyJoaXN0b3J5IjpbLTM4MDQ1MjM4MiwtMTAyNTYxNTA4NCwxOD
 IxODAxOCwtMTE4MjQ1OTQ0MCwtNjY3MzE3NTU1LDEzMDQ3NjY0
 NzIsNDU3NzEyMzNdfQ==
 -->
