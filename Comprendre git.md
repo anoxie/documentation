@@ -115,85 +115,49 @@ pour visualiser dans quelle zone de git sont les fichiers
 git log
 ```
 pour visualiser l’historique du projet
-
-  
-
 # Qu’est-ce qu’une branch ?
-
 Une branche n’est qu’un étiquette qui pointe vers un commit. Identifier par une référence sha1. La branch master étant par défaut la branche principale. Head est une référence spéciale qui pointe vers le commit qui sera le parent du prochain commit, typiquement indique la branch dans laquelle on souhaite travailler.
 
-  
-
 Chaque branche permet de créer un flow de développement parallèle
-
-  
-
 ## Manipuler les branches :
 ```bash
 git branch
 ```
 permet de lister les branches
-
-  
 ```bash
 git branch <nom_de_branch>
 ```
 permet de créer, lister et supprimer des branches
-
-  
 ```bash
 git branch <nom_de_branch> <réf_de_commit>
 ```
 permet de créer une branche à partir de la référence d’un commit
-
-  
 ```bash
 git checkout <nom_de_branch>
 ```
 permet de déplacer la référence HEAD, notamment vers une nouvelle branche et donc de changer de branch
-
-  
 ```bash
 git checkout -b <nom_de_branch>
 ```
 permet de cumuler les deux git branch et git checkout
-
-  
-
 ## Fusionner les branches :
-
 Si les branches, permettent de travailler en parallèle sur différentes parties du projet, on finit bien par fusionner ces branches pour créer créer un seul projet. Lors d’une fusion ou merge, git va intégrer toutes les modifications contenues sur chaque branche dans une seule et même arborescence.
-
-  
-
 ## Merge étape par étape :
-
 -   on se place sur la branche qui va “recevoir” les modifications de l’autre branche avec ``` git checkout <nom_de_branch>```
-    
 -   on fusionne avec ```git merge <nom_de_branch_a_fusionner>```
-    
--   une fois fusionné on supprime la branch devenue inutile avec 
-```bash
-git branch -d test
-```    
-
-  
+-   une fois fusionné on supprime la branch devenue inutile avec ``` git branch -d test```    
 
 ## Résoudre les conflits de fusion :
-
 Des conflits peuvent survenir durant la fusion obligeant à y intervenir manuellement, ce sera le cas par exemple si différentes branches apportent des modifications différentes au même endroit dans le même fichier.
 
 En cas de conflit, git interrompt le merge et insère des marqueurs dans les fichiers conflictuels. Il faut éditer ces fichiers manuellement (ou à l’aide d’une interface spécifique), avant de poursuivre la fusion.
 
-  
 ```bash
 git help merge
 ```
 Pour le protocole précis de résolution de conflits.  
   
 Quand un conflit apparaît, git crée un fichier avec l’extension .md, qu’il convient d’éditer, pour choisir le code à conserver. Une fois sauvegardé il suffit de lancer un git commit, qui se chargera de détecter la résolution de conflit et générera un message automatique.
-
-  
 
 ## L’état DETACHED HEAD
 ```bash
@@ -330,5 +294,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ3NTI4NDJdfQ==
+eyJoaXN0b3J5IjpbMTA0MTIyMjMyXX0=
 -->
