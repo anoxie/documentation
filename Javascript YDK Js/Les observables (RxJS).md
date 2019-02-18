@@ -234,6 +234,12 @@ Pour mettre en place un subject, il faut réaliser plusieurs étapes :
 - implémenter OnDestroy pour détruire la souscription
 
 ```ts
+import { Subject } from 'rxjs/Subject';
+
+export class AppareilService {
+
+appareilsSubject = new Subject<a
+
 private appareils = [
      {
          id: 1,
@@ -249,11 +255,12 @@ private appareils = [
          id: 3,
          name: 'Ordinateur',
          status: 'éteint'
-      
+     }
+ ];
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NDU5NTcsLTEwMjU2MTUwODQsMTgyMT
-gwMTgsLTExODI0NTk0NDAsLTY2NzMxNzU1NSwxMzA0NzY2NDcy
-LDQ1NzcxMjMzXX0=
+eyJoaXN0b3J5IjpbNjE1OTExMjkxLC0xMDI1NjE1MDg0LDE4Mj
+E4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1NTUsMTMwNDc2NjQ3
+Miw0NTc3MTIzM119
 -->
