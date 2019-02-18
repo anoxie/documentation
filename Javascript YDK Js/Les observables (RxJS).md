@@ -258,11 +258,19 @@ private appareils = [
      }
  ];
 emitAppareilSubject(){
-this.appareilsSubject.next(this.appareils.slice());
+    this.appareilsSubject.next(this.appareils.slice());
+}
+
+switchOnAll(){
+    for(let appareil of this.appareils){
+        appareil
+    }
+    this.emitAppareilSubject();
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTYzNTY5MjksLTEwMjU2MTUwODQsMT
-gyMTgwMTgsLTExODI0NTk0NDAsLTY2NzMxNzU1NSwxMzA0NzY2
-NDcyLDQ1NzcxMjMzXX0=
+eyJoaXN0b3J5IjpbNDI4MzU4NzkzLC0xMDI1NjE1MDg0LDE4Mj
+E4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1NTUsMTMwNDc2NjQ3
+Miw0NTc3MTIzM119
 -->
