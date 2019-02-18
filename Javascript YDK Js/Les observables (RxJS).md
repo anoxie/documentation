@@ -207,12 +207,15 @@ ngOnInit(){
         (error) => {
            console.log('Uh-oh, an error occured! : ' + error);
         },
-     () => {
-         console.log('Observable complete!');
-     }
+        () => {
+           console.log('Observable complete!');
+        }
+    );
+}
+}
      
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTAyMzQyLC02NjczMTc1NTUsMTMwND
-c2NjQ3Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbLTExODI0NTk0NDAsLTY2NzMxNzU1NSwxMz
+A0NzY2NDcyLDQ1NzcxMjMzXX0=
 -->
