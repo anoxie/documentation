@@ -101,6 +101,11 @@ KeyboardObservable.subscribe({
 
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
+
+Dans se paradigme on traite toutes les données, quelles qu'elles soient, de la même façon: au travers de flux. Un flux, c'est en gros une structure qui balance une ou plusieurs données dans le temps au travers d'observables.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDc2NjQ3Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbLTEwNzY1NTI0OTQsMTMwNDc2NjQ3Miw0NT
+c3MTIzM119
 -->
