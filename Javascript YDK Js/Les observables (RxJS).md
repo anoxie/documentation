@@ -189,7 +189,11 @@ template :
     <p> Vous êtes connecté depuis {{ secondes }} secondes ! </p>
 </div>
 ```
+
+l'implémentation ci-dessus pose un problème dans le sens ou elle ne s'arrête jamais.
+
+De plus la donnée retourner 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyNDMzNDAxLC02NjczMTc1NTUsMTMwND
-c2NjQ3Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbLTE0MTkzMDA2ODQsLTY2NzMxNzU1NSwxMz
+A0NzY2NDcyLDQ1NzcxMjMzXX0=
 -->
