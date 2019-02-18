@@ -141,7 +141,7 @@ git checkout -b <nom_de_branch>
 ```
 permet de cumuler les deux git branch et git checkout
 ## Fusionner les branches :
-Si les branches, permettent de travailler en parallèle sur différentes parties du projet, on finit bien par fusionner ces branches pour créer créer un seul projet. Lors d’une fusion ou merge, git va intégrer toutes les modifications contenues sur chaque branche dans une seule et même arborescence.
+Si les branches, permettent de travailler en parallèle sur différentes parties du projet, on finit bien par fusionner ces branches pour créer un seul projet. Lors d’une fusion ou merge, git va intégrer toutes les modifications contenues sur chaque branche dans une seule et même arborescence.
 ## Merge étape par étape :
 -   on se place sur la branche qui va “recevoir” les modifications de l’autre branche avec ``` git checkout <nom_de_branch>```
 -   on fusionne avec ```git merge <nom_de_branch_a_fusionner>```
@@ -254,5 +254,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDk2NzkxMDYsLTM4NzU3Njk4NF19
+eyJoaXN0b3J5IjpbMTkwODM2NjI5NSwtMzg3NTc2OTg0XX0=
 -->
