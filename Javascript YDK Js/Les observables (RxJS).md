@@ -138,7 +138,17 @@ button$ est une convention permettant d'indiquer qu'il s'agit d'un flux.
 ## RxJS dans angular
 
 Un observable est un objet qui émet des informations auxquelles on souhaite réagir.
+
+Exemple simple d'intégration :
+
+```ts
+import 
+import {Observable } from 'rxjs/Observable';
+import 'rxjs/add/observable/interval';
+
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTAwMDI3OSwxMzA0NzY2NDcyLDQ1Nz
+eyJoaXN0b3J5IjpbMTgyMzAzMjYzNywxMzA0NzY2NDcyLDQ1Nz
 cxMjMzXX0=
 -->
