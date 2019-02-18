@@ -1,14 +1,8 @@
 # Zones et workflow de travail :
 
-  
-
 -   Working Directory : c’est là ou les fichiers sont stockés et modifiés, concrètement c’est le dossier de travail.
-    
 -   Staging area : une mystérieuse zone spéciale que l’on appelle l’idex, ou la zone de staging
-    
 -   Git repository : stock les données de l’arborescence tel qu’elles étaient lors du dernier commit
-    
-
   
 
 ## Cloner et créer un repository git
@@ -19,31 +13,23 @@ git init
 
 Créer un repository git.
 
-  
 ```bash
 git clone
-
+```
 Cloner un repository à partir d’une adresse de repository
-
   
-
 ## Qu’est-ce qu’un bon commit :
-
 Il doit être atomique, il ne doit concerner qu’une seul chose, être le plus petit possible en restant cohérent. Il est possible d’atomiser les commits, même si l’un a effectué plusieurs modification, pour faire un commit pour chaque modification, par exemple l’implémentation d’un feature sera un commit, la correction de fautes d’orthographes en sera un autre, il est même possible dans la zone de staging de choisir des parties de fichier à joindre à un commit.
-
-  
 
 ## Un commit étape par étape :
 
 ![](https://lh3.googleusercontent.com/dCBMYYifVd7GOI67ke4ssSvqYqAIohiSB2X6R0cFihbc6KkxvlrwhAQfhnnSjDrOz0rh1zupowzf2Ads0Il4VS8vZLjMaJ26CYB4Z64LTCiFxaCyOOmzo6t8eflZ52k7hGc-twbw)
 
-  
 ```bash
 git add <nom_de_fichier>
-
+```
 pour copier un fichier ou un répertoire dans la zone de staging.
 
-  
 ```bash
 git add .
 ```
@@ -365,5 +351,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzMjQzOF19
+eyJoaXN0b3J5IjpbNzU5MzUwMTEyXX0=
 -->
