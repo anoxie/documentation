@@ -349,9 +349,12 @@ Il existe de très nombreux opérateur dans l'API RxJS, beaucoup permettent de r
 - throttleTime() : impose un délai minimum entre deux valeurs, si un observable change trop fréquemment, on peut décider de ne mettre a jour qut toutes les secondes ```throttleTime(1000)```
 - scan() et reduce() : permet d'exécuter une fonction qui réunit l'ensemble des valeurs reçues selon une fonctio qui vous lui passez, par exemple, vous pouvez faire la somme de toutes les valeurs reçues. La différence basique entre les deux opérateurs: reduce() retourne le résultat final, alors que scan() retournera les valeurs intermédiaires.
 
+Mais il y a beaucoup d'autres opérateurs :
+> http://reactivex.io/
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1ODU5MTM4LDIwMDg3NDE4MDMsLTEwMj
-U2MTUwODQsMTgyMTgwMTgsLTExODI0NTk0NDAsLTY2NzMxNzU1
-NSwxMzA0NzY2NDcyLDQ1NzcxMjMzXX0=
+eyJoaXN0b3J5IjpbMTEyNDE2MTU5OCwyMDA4NzQxODAzLC0xMD
+I1NjE1MDg0LDE4MjE4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1
+NTUsMTMwNDc2NjQ3Miw0NTc3MTIzM119
 -->
