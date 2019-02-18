@@ -132,7 +132,9 @@ const button$ = Rx.Observable.fromEvent(document.getElementById("button")
     doucment.getElementById("count").innerHTML = "You clicked" + clickCount + "times." ;
 })
 ```
+
+button$ est une convention permettant d'indiquer qu'il s'agit d'un flux.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTA5MzEwMSwxMzA0NzY2NDcyLDQ1Nz
-cxMjMzXX0=
+eyJoaXN0b3J5IjpbMTMxNDUwOTAwLDEzMDQ3NjY0NzIsNDU3Nz
+EyMzNdfQ==
 -->
