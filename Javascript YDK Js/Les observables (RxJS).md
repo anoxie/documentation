@@ -340,10 +340,12 @@ ngOnDestroy() {
 ```
 
 
-## Opéra
+## Opérateurs
+
+Il existe de très nombreux opérateur dans l'API RxJS, no
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTc2MTY2MTAsMjAwODc0MTgwMywtMT
-AyNTYxNTA4NCwxODIxODAxOCwtMTE4MjQ1OTQ0MCwtNjY3MzE3
-NTU1LDEzMDQ3NjY0NzIsNDU3NzEyMzNdfQ==
+eyJoaXN0b3J5IjpbNzk4NjAxNjA4LDIwMDg3NDE4MDMsLTEwMj
+U2MTUwODQsMTgyMTgwMTgsLTExODI0NTk0NDAsLTY2NzMxNzU1
+NSwxMzA0NzY2NDcyLDQ1NzcxMjMzXX0=
 -->
