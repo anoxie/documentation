@@ -1,8 +1,3 @@
-<style> p{color: red}
-body{
-	background: red;
-}
-</style>
 # Zones et workflow de travail :
 
 -   Working Directory : c’est là où les fichiers sont stockés et modifiés, concrètement c’est le dossier de travail.
@@ -259,6 +254,6 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODE2ODU4MSwtMTY5ODA4NDgwMCwxOT
+eyJoaXN0b3J5IjpbMTAxMjQ0MzI4MiwtMTY5ODA4NDgwMCwxOT
 A4MzY2Mjk1LC0zODc1NzY5ODRdfQ==
 -->
