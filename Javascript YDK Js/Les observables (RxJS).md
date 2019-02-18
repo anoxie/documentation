@@ -192,8 +192,13 @@ template :
 
 l'implémentation ci-dessus pose un problème dans le sens ou elle ne s'arrête jamais.
 
-De plus la donnée retourner 
+De plus la donnée retourner par le service souscrit n'est pas stocké dans une variable. Pour y remédier il faut réaliser l'implémentation suivante :
+```ts
+export class AppComponent implmeents OnInit {
+secondes: number;
+counterSubscriptio
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTkzMDA2ODQsLTY2NzMxNzU1NSwxMz
-A0NzY2NDcyLDQ1NzcxMjMzXX0=
+eyJoaXN0b3J5IjpbNzQyNzIzODMzLC02NjczMTc1NTUsMTMwND
+c2NjQ3Miw0NTc3MTIzM119
 -->
