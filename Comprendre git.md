@@ -254,8 +254,7 @@ NE JAMAIS VERSIONNER DE VARIABLE DE CONFIGURATIONS tel que mot de passes, clé s
 contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
-</body>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzExMDQzLDE5MDgzNjYyOTUsLTM4Nz
-U3Njk4NF19
+eyJoaXN0b3J5IjpbLTE2OTgwODQ4MDAsMTkwODM2NjI5NSwtMz
+g3NTc2OTg0XX0=
 -->
