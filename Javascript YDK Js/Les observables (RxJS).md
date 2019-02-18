@@ -62,11 +62,13 @@ Les promises ne permettent cependant pas de traiter de la donnée au fur et à m
 C'est là que les observable arrivent à la rescousse. Un observable est un objet implémentant une méthode .subscribe qui prend comme paramètre un Observer. Ce dernier a cette forme :
 ```js
 const observer = {
-    next: val => console.log(val
+    next: val => console.log(val), //une fonction à exécuter à chaque nouvel évenement
+    error: err => console.error(err), // une fonction à exécuter en cas d'erreur
+    complete: () => cosole.info("Complete !"), // une fonction à exécuter 
 ```
 
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkxMTc5MDAsNDU3NzEyMzNdfQ==
+eyJoaXN0b3J5IjpbNTU5MzA2NDEzLDQ1NzcxMjMzXX0=
 -->
