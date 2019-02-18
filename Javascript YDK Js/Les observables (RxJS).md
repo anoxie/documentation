@@ -100,6 +100,9 @@ KeyboardObservable.subscribe({
 ```
 
 ## La programmation reactive avec RxJS
+
+>source :
+>
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 
 Dans se paradigme on traite toutes les données, quelles qu'elles soient, de la même façon: au travers de flux. Un flux, c'est en gros une structure qui balance une ou plusieurs données dans le temps au travers d'observables.
@@ -112,8 +115,8 @@ Un flux c'est simplement de la donnée qui arrive de manière ordonné dans le t
 - un signal de fin
 
 ## La bibliothèque RxJs
-Il s'agit d'une implémentation en javascript de ReactiveX, qui vise à porter sous différents langage, les concepts de la programmation Reactive. Aussi appelé Lodash des donnée
+Il s'agit d'une implémentation en javascript de ReactiveX, qui vise à porter sous différents langage, les concepts de la programmation Reactive. Aussi appelé Lodash des données asynchrone.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ2NzUyNzgsMTMwNDc2NjQ3Miw0NT
-c3MTIzM119
+eyJoaXN0b3J5IjpbMjA5ODA2NzU4OCwxMzA0NzY2NDcyLDQ1Nz
+cxMjMzXX0=
 -->
