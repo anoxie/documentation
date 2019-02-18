@@ -223,10 +223,10 @@ ngOnDestroy(){
 ```
 ## Subjects
 
-
+Il existe un type d'observable qui permet de réagir à de nouvelles information mais également d'en émettre, il devient ainsi possible de mettre à jour les informations d'un service pour tout les composants qui y ont souscrit.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NjQ2NTkwLDE4MjE4MDE4LC0xMTgyND
-U5NDQwLC02NjczMTc1NTUsMTMwNDc2NjQ3Miw0NTc3MTIzM119
-
+eyJoaXN0b3J5IjpbLTEwMjU2MTUwODQsMTgyMTgwMTgsLTExOD
+I0NTk0NDAsLTY2NzMxNzU1NSwxMzA0NzY2NDcyLDQ1NzcxMjMz
+XX0=
 -->
