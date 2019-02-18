@@ -155,6 +155,7 @@ import 'rxjs/add/observable/interval';
 export class AppComponent implements OnInit {
     ngOnInit() {
         const counter = Observable.interval(1000);
+	counter.subscribe(
     }
 }
 
@@ -173,9 +174,12 @@ template :
 	    Appareils
 	</a>
     </li>
-    
+</ul>
+<div class="navbar-right">
+    <p> Vous êtes connecté depuis {{ secondes }} secondes ! </p>
+</div>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2Njk2MjU0LC02NjczMTc1NTUsMTMwND
-c2NjQ3Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbLTkzODU1NTM1OSwtNjY3MzE3NTU1LDEzMD
+Q3NjY0NzIsNDU3NzEyMzNdfQ==
 -->
