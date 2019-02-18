@@ -225,8 +225,12 @@ ngOnDestroy(){
 
 Il existe un type d'observable qui permet de réagir à de nouvelles information mais également d'en émettre, il devient ainsi possible de mettre à jour les informations d'un service pour tout les composants qui y ont souscrit.
 
+Pour mettre en place un subject, il faut réaliser plusieurs étapes :
+
+- mettre en private les données relatives au service
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjU2MTUwODQsMTgyMTgwMTgsLTExOD
-I0NTk0NDAsLTY2NzMxNzU1NSwxMzA0NzY2NDcyLDQ1NzcxMjMz
-XX0=
+eyJoaXN0b3J5IjpbLTE5ODk3MTc2NDIsLTEwMjU2MTUwODQsMT
+gyMTgwMTgsLTExODI0NTk0NDAsLTY2NzMxNzU1NSwxMzA0NzY2
+NDcyLDQ1NzcxMjMzXX0=
 -->
