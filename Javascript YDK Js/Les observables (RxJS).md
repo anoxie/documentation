@@ -34,12 +34,18 @@ Typiquement tout ce qui va avoir un rapport avec des appels réseaux, les télé
 
 exemple le téléchargement d'un fichier avec node.js
 ```js
-fs.readFile("./alphabet.txt
+fs.readFile("./alphabet.txt, {encoding: "utf-8"}, {err, data) => {
+    if (err){
+        onError(err);
+    } else {
+        onData(data);
+    }
+})
 ```
 
 
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTA3NzUxMTJdfQ==
+eyJoaXN0b3J5IjpbMTYyNjkyOTgyMV19
 -->
