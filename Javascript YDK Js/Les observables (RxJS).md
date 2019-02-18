@@ -112,8 +112,8 @@ Un flux c'est simplement de la donnée qui arrive de manière ordonné dans le t
 - un signal de fin
 
 ## La bibliothèque RxJs
-
+Il s'agit d'une implémentation en javascript de ReactiveX, qui vise à porter sous différents langage, les concepts de la programmation Reactive. Aussi appelé Lodash des donnée
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDk3NTQyNiwxMzA0NzY2NDcyLDQ1Nz
-cxMjMzXX0=
+eyJoaXN0b3J5IjpbLTEwNzQ2NzUyNzgsMTMwNDc2NjQ3Miw0NT
+c3MTIzM119
 -->
