@@ -263,14 +263,20 @@ emitAppareilSubject(){
 
 switchOnAll(){
     for(let appareil of this.appareils){
-        appareil
+        appareil.status = 'allumé';
     }
     this.emitAppareilSubject();
+}
+
+switchOffAll(){
+    for(let appareil of this.appareils) {
+        appareil.status = 'étein
+    }
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4MzU4NzkzLC0xMDI1NjE1MDg0LDE4Mj
-E4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1NTUsMTMwNDc2NjQ3
-Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbMTU5MTU5Mjg1OCwtMTAyNTYxNTA4NCwxOD
+IxODAxOCwtMTE4MjQ1OTQ0MCwtNjY3MzE3NTU1LDEzMDQ3NjY0
+NzIsNDU3NzEyMzNdfQ==
 -->
