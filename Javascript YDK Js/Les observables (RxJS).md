@@ -59,10 +59,14 @@ Dans cette exemple l'API renvoie une [Promise](https://putaindecode.io/fr/articl
 
 Les promises ne permettent cependant pas de traiter de la donnée au fur et à mesure de son arrivé: elle est remplie une seule fois.
 
-C'est là que les observable arrivent à la rescousse.
+C'est là que les observable arrivent à la rescousse. Un observable est un objet implémentant une méthode .subscribe qui prend comme paramètre un Observer. Ce dernier a cette forme :
+```js
+const observer = {
+    next: val => console.log(val
+```
 
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDU4NzgxMCw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbLTE3OTkxMTc5MDAsNDU3NzEyMzNdfQ==
 -->
