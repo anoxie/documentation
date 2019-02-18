@@ -280,11 +280,19 @@ switchOnOne(i:number){
     this.emitAppareilSubject();
 }
 
-switchOffOne(i:number
+switchOffOne(i:number) {
+    this.appareils[i].status = 'éteins';
+    this.emitAppareilSubject();
+}
+```
+
+dans le component utilisant le service :
+```
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1NTg2ODkzLC0xMDI1NjE1MDg0LDE4Mj
-E4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1NTUsMTMwNDc2NjQ3
-Miw0NTc3MTIzM119
+eyJoaXN0b3J5IjpbLTczNzE0NjEyNiwtMTAyNTYxNTA4NCwxOD
+IxODAxOCwtMTE4MjQ1OTQ0MCwtNjY3MzE3NTU1LDEzMDQ3NjY0
+NzIsNDU3NzEyMzNdfQ==
 -->
