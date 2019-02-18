@@ -346,11 +346,12 @@ Il existe de très nombreux opérateur dans l'API RxJS, beaucoup permettent de r
 
 - map() : modifie les valeurs reçues - peut effectuer des calculs sur des chiffres, transformer du texte, créer des objets...
 - filter() : filtre les donnée reçu, via la fonction qu'on lui passe en paramètre.
-- throttleTime() : impose un délai minimum entre deux valeurs, si un observable change trop fréquemment, on peut décider de ne mettre a jour
+- throttleTime() : impose un délai minimum entre deux valeurs, si un observable change trop fréquemment, on peut décider de ne mettre a jour qut toutes les secondes ```throttleTime(1000)```
+- scan() et reduce() : permet d'exécuter une fonction qui réunit l'ensemble des valeurs reçues selon une fonctio qui vous lui passez 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE2ODgyOTEsMjAwODc0MTgwMywtMT
-AyNTYxNTA4NCwxODIxODAxOCwtMTE4MjQ1OTQ0MCwtNjY3MzE3
-NTU1LDEzMDQ3NjY0NzIsNDU3NzEyMzNdfQ==
+eyJoaXN0b3J5IjpbMTYxNTU4NzQ3NCwyMDA4NzQxODAzLC0xMD
+I1NjE1MDg0LDE4MjE4MDE4LC0xMTgyNDU5NDQwLC02NjczMTc1
+NTUsMTMwNDc2NjQ3Miw0NTc3MTIzM119
 -->
