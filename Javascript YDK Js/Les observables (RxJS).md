@@ -49,8 +49,8 @@ Autre exemple :
 function logValue(value){ console.log(value)}
 function logError(err) { console.error(err)}
 
-fetch('https://api.github.com/users/wyeo") //fetch est une fonction js qui permet de faire des appel au réseau
-    .then(res => res.jon())
+fetch('https://api.github.com/users/wyeo") //fetch = fonction js qui permet de faire des appels au réseau
+    .then(res => res.jon()) //fonction de callback relative à une promesse => fetch
     .then(logValue)
     .catch(logError)
 ```
@@ -58,5 +58,5 @@ fetch('https://api.github.com/users/wyeo") //fetch est une fonction js qui perme
 ## La programmation reactive avec RxJS
 Il s'agit d'un paradigme de programmation, qui repose sur l'émission de données depuis une ou plusieurs sources à destinations d'autres éléments appelés consommateurs. Elle repose sur le design pattern ==Observable - Observer==
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDMyMDM2MjksNDU3NzEyMzNdfQ==
+eyJoaXN0b3J5IjpbMjA1MTkyNjIyNiw0NTc3MTIzM119
 -->
