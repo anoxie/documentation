@@ -1,7 +1,7 @@
 # Zones et workflow de travail :
 
--   Working Directory : c’est là ou les fichiers sont stockés et modifiés, concrètement c’est le dossier de travail.
--   Staging area : une mystérieuse zone spéciale que l’on appelle l’idex, ou la zone de staging
+-   Working Directory : c’est là où les fichiers sont stockés et modifiés, concrètement c’est le dossier de travail.
+-   Staging area : une mystérieuse zone spéciale que l’on appelle l’index, ou la zone de staging
 -   Git repository : stock les données de l’arborescence tel qu’elles étaient lors du dernier commit
   
 
@@ -254,5 +254,5 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTE1MTk2LC0zODc1NzY5ODRdfQ==
+eyJoaXN0b3J5IjpbMTY5Mjg1MTE2OCwtMzg3NTc2OTg0XX0=
 -->
