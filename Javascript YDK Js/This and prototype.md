@@ -213,13 +213,21 @@ La manière la plus simple de créer un objet vide est ```Object.create(null)```
 function foo(a,b){
     console.log("a:" + a + ", b:" + b);
 }
+
+//our DMZ empty object
+var ø = Object.create(null);
+
+//spreading out array as parameters
+foo.apply(ø, [é,3]); // a:2, b:3
+
+//currying with 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI5ODk1NTgsNjk0MjU2Mzg3LDE3Nj
-c3MjI1MTQsMTUyNDIwMTYyMCwtMjA1ODQ4Mjc4OCw0MDY2MzE0
-NDksLTIwMjQwMjY1MDAsLTExMTM3OTMxOTMsLTQ0NzE3MDczLC
-02ODQ1NjI4MDQsLTEyMTM0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2
-NzkyNzE0OTksLTg0NjMwMzQwNCwtMTQzMTc2NzU0MSwxNDMxNj
-EwMTEsMjEyODQ1ODA3MSwxOTA2MTg1MTgzLDE3ODQ1NTc1NDMs
-LTE3NzY1NDk2NDBdfQ==
+eyJoaXN0b3J5IjpbMTgxNjM3MDQyOCw2OTQyNTYzODcsMTc2Nz
+cyMjUxNCwxNTI0MjAxNjIwLC0yMDU4NDgyNzg4LDQwNjYzMTQ0
+OSwtMjAyNDAyNjUwMCwtMTExMzc5MzE5MywtNDQ3MTcwNzMsLT
+Y4NDU2MjgwNCwtMTIxMzQwMTI3MiwtMTM0NDk5MzYyNSwtMTY3
+OTI3MTQ5OSwtODQ2MzAzNDA0LC0xNDMxNzY3NTQxLDE0MzE2MT
+AxMSwyMTI4NDU4MDcxLDE5MDYxODUxODMsMTc4NDU1NzU0Mywt
+MTc3NjU0OTY0MF19
 -->
