@@ -206,9 +206,9 @@ foo.call(null);//2
 ```
 ### Safer this
 
-Au lieu de passer 
+Au lieu de passer null, il est préférable de passer un objet vide, pour créer une sorte de DMZ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODI2NTAzNCwxNTI0MjAxNjIwLC0yMD
+eyJoaXN0b3J5IjpbMTc2NzcyMjUxNCwxNTI0MjAxNjIwLC0yMD
 U4NDgyNzg4LDQwNjYzMTQ0OSwtMjAyNDAyNjUwMCwtMTExMzc5
 MzE5MywtNDQ3MTcwNzMsLTY4NDU2MjgwNCwtMTIxMzQwMTI3Mi
 wtMTM0NDk5MzYyNSwtMTY3OTI3MTQ5OSwtODQ2MzAzNDA0LC0x
