@@ -169,11 +169,17 @@ Ce qui va entrainer les actions suivantes :
 - le nouvel objet est lié au context de l'appel de cette fonction
 - sauf si la fonction retourne elle même son objet, c'est l'objet nouvellement créer qui sera retourné
 
+De fait il est possible de lier un contexte à une fonction en utilisant new. Exemple :
 
+```js
+function foo(a){
+    this.a =
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM3OTMxOTMsLTQ0NzE3MDczLC02OD
-Q1NjI4MDQsLTEyMTM0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2Nzky
-NzE0OTksLTg0NjMwMzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMT
-EsMjEyODQ1ODA3MSwxOTA2MTg1MTgzLDE3ODQ1NTc1NDMsLTE3
-NzY1NDk2NDAsLTMwNDcxNTkyNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTQ5MTc4MjMzMiwtMTExMzc5MzE5MywtND
+Q3MTcwNzMsLTY4NDU2MjgwNCwtMTIxMzQwMTI3MiwtMTM0NDk5
+MzYyNSwtMTY3OTI3MTQ5OSwtODQ2MzAzNDA0LC0xNDMxNzY3NT
+QxLDE0MzE2MTAxMSwyMTI4NDU4MDcxLDE5MDYxODUxODMsMTc4
+NDU1NzU0MywtMTc3NjU0OTY0MCwtMzA0NzE1OTI1LC0yMDg4Nz
+Q2NjEyXX0=
 -->
