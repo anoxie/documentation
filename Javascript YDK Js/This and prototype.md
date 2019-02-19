@@ -145,9 +145,19 @@ console.log(b); // 5
 
 ## API Call "Contexts"
 De nombreuse API, permettent de passer un context, dans l'appel au varible permettant d'éviter le recours à bind. Exemple :
-````
+```js
+function foo(el) {
+    console.log(el, this.id);
+}
+
+var obj = {
+    id: "awesome"
+};
+
+//use 'obj' 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ5NjI4MDcsLTEyMTM0MDEyNzIsLT
+eyJoaXN0b3J5IjpbLTIxMTgwMjgyMDUsLTEyMTM0MDEyNzIsLT
 EzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMwMzQwNCwtMTQz
 MTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MSwxOTA2MTg1MT
 gzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwt
