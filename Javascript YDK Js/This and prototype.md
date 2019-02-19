@@ -126,10 +126,12 @@ setTimeout( bar, 100 ); //2
 // so that it cannot be overriden
 bar.call(window); //2
 ```
-
+Depuis ES5 il existe une fonction native dans javascript pour réaliser le hard binding, il s'agit de bind(), exemple :
+````js
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzkyNzE0OTksLTg0NjMwMzQwNCwtMT
-QzMTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MSwxOTA2MTg1
-MTgzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNS
-wtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLT
+g0NjMwMzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1
+ODA3MSwxOTA2MTg1MTgzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2ND
+AsLTMwNDcxNTkyNSwtMjA4ODc0NjYxMl19
 -->
