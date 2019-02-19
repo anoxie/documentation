@@ -187,12 +187,13 @@ new binding > explicit binding > implicit binding > default binding
 ### Déterminer this
 Il faut se poser ces questions dans l'ordre et s'arrêter quand l'on trouve une réponse positive :
 
-- est-ce que la fonction est appelé avec new 
+- est-ce que la fonction est appelé avec new ? Si oui, this est l'objet nouvellement construit.
+- est-ce que la fonction est appelé avec call, apply ou bind ? Si oui, il s'agit d'un hard-binding, this est l'objet explicitement 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzg5NzY2MDQsNDA2NjMxNDQ5LC0yMD
-I0MDI2NTAwLC0xMTEzNzkzMTkzLC00NDcxNzA3MywtNjg0NTYy
-ODA0LC0xMjEzNDAxMjcyLC0xMzQ0OTkzNjI1LC0xNjc5MjcxND
-k5LC04NDYzMDM0MDQsLTE0MzE3Njc1NDEsMTQzMTYxMDExLDIx
-Mjg0NTgwNzEsMTkwNjE4NTE4MywxNzg0NTU3NTQzLC0xNzc2NT
-Q5NjQwLC0zMDQ3MTU5MjUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMjU2NDU1MDIyLDQwNjYzMTQ0OSwtMjAyND
+AyNjUwMCwtMTExMzc5MzE5MywtNDQ3MTcwNzMsLTY4NDU2Mjgw
+NCwtMTIxMzQwMTI3MiwtMTM0NDk5MzYyNSwtMTY3OTI3MTQ5OS
+wtODQ2MzAzNDA0LC0xNDMxNzY3NTQxLDE0MzE2MTAxMSwyMTI4
+NDU4MDcxLDE5MDYxODUxODMsMTc4NDU1NzU0MywtMTc3NjU0OT
+Y0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2NjEyXX0=
 -->
