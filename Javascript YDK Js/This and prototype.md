@@ -173,10 +173,15 @@ De fait il est possible de lier un contexte à une fonction en utilisant new. Ex
 
 ```js
 function foo(a){
-    this.a =
+    this.a = a;
+}
+
+var bar = new foo(2);
+var a = "je suis une variable global"; //n'a pas d'impact sur bar, puisque 
+console.log(bar.a); //2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTc4MjMzMiwtMTExMzc5MzE5MywtND
+eyJoaXN0b3J5IjpbLTU5MDc3ODgyNywtMTExMzc5MzE5MywtND
 Q3MTcwNzMsLTY4NDU2MjgwNCwtMTIxMzQwMTI3MiwtMTM0NDk5
 MzYyNSwtMTY3OTI3MTQ5OSwtODQ2MzAzNDA0LC0xNDMxNzY3NT
 QxLDE0MzE2MTAxMSwyMTI4NDU4MDcxLDE5MDYxODUxODMsMTc4
