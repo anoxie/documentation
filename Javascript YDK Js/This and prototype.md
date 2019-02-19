@@ -104,16 +104,16 @@ var obj = {
 foo.call( obj ); //2
 ```
 #### Hard Binding
-Consiste à utiliser l'explicit Binding pour lier dans la fonction foo l'objet obj à la fonction.
+Consiste à utiliser l'explicit Binding pour lier la fonction à l'objet obj, évitant ainsi la la perte du lien implicite.
 
-````js
-
+```js
+function foo(){
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTc2NjE2ODgsLTg0NjMwMzQwNCwtMT
-QzMTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MSwxOTA2MTg1
-MTgzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNS
-wtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTMxOTQ2MTQxNywtODQ2MzAzNDA0LC0xND
+MxNzY3NTQxLDE0MzE2MTAxMSwyMTI4NDU4MDcxLDE5MDYxODUx
+ODMsMTc4NDU1NzU0MywtMTc3NjU0OTY0MCwtMzA0NzE1OTI1LC
+0yMDg4NzQ2NjEyXX0=
 -->
