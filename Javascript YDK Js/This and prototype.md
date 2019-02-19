@@ -89,7 +89,7 @@ var a = "oops, global"; // `a` also property on global object
 doFoo( obj.foo ); // "oops, global"
 ```
 ### Explicit Binding
-Le prototype des fonctions javascript définit 2 méthodes capable d'invoqué le contexte d'un objet pour exécuter une fonction, il s'agit de call() ( et d' apply(), il faut faire appel à la fonction, puis spécifier la méthode (call ou apply) puis lui passé l'objet en paramètre.
+Le prototype des fonctions javascript définit 2 méthodes capable d'invoqué le contexte d'un objet pour exécuter une fonction, il s'agit de call() (qui permet d'appeler des arguments séparer par une virgule (c comme coma)) et d' apply() qui permet d'utiliser des array dans le passage des arguments (a comme array)), il faut faire appel à la fonction, puis spécifier la méthode (call ou apply) puis lui passé l'objet en paramètre.
 
 Exemple :
 ```js
@@ -128,7 +128,7 @@ bar.call(window); //2
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQwNzQ2OTUsLTg0NjMwMzQwNCwtMT
+eyJoaXN0b3J5IjpbLTE2NzkyNzE0OTksLTg0NjMwMzQwNCwtMT
 QzMTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MSwxOTA2MTg1
 MTgzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNS
 wtMjA4ODc0NjYxMl19
