@@ -137,10 +137,13 @@ var obj = {
     a: 2
 };
 
-var bar = 
+var bar = foo.bind(obj);
+
+var b = bar(3); // 2 3
+console.log(b); // 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDg0MDM1NSwtMTM0NDk5MzYyNSwtMT
+eyJoaXN0b3J5IjpbMTgzMzkzOTIxMCwtMTM0NDk5MzYyNSwtMT
 Y3OTI3MTQ5OSwtODQ2MzAzNDA0LC0xNDMxNzY3NTQxLDE0MzE2
 MTAxMSwyMTI4NDU4MDcxLDE5MDYxODUxODMsMTc4NDU1NzU0My
 wtMTc3NjU0OTY0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2NjEyXX0=
