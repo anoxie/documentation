@@ -88,8 +88,10 @@ var a = "oops, global"; // `a` also property on global object
 
 doFoo( obj.foo ); // "oops, global"
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODQ1ODA3MSwxOTA2MTg1MTgzLDE3OD
-Q1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMTQzMTYxMDExLDIxMjg0NTgwNzEsMTkwNj
+E4NTE4MywxNzg0NTU3NTQzLC0xNzc2NTQ5NjQwLC0zMDQ3MTU5
+MjUsLTIwODg3NDY2MTJdfQ==
 -->
