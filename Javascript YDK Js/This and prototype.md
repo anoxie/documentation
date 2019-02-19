@@ -120,12 +120,16 @@ var bar = function() {
 };
 
 bar(); //2
-setTimeout( bar, 100 )
+setTimeout( bar, 100 ); //2
+
+//'bar' hard binds 'foo' 's 'this' to 'obj'
+// so that it cannot be overriden
+bar.call(window); //2
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODU4NTU5NiwtODQ2MzAzNDA0LC0xND
+eyJoaXN0b3J5IjpbLTcyNzI1MzA2MiwtODQ2MzAzNDA0LC0xND
 MxNzY3NTQxLDE0MzE2MTAxMSwyMTI4NDU4MDcxLDE5MDYxODUx
 ODMsMTc4NDU1NzU0MywtMTc3NjU0OTY0MCwtMzA0NzE1OTI1LC
 0yMDg4NzQ2NjEyXX0=
