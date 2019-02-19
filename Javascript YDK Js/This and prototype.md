@@ -34,8 +34,8 @@ obj.foo(); //2
 ```
 
 #### Implicitly lost
-
+Il peut assez facilement arriver de perdre l'implicit binding, ce qui modifiera la valeur de this, du context lo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTQwMTI5LC0xNzc2NTQ5NjQwLC0zMD
-Q3MTU5MjUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzNDQwNjEzNzYsLTE3NzY1NDk2NDAsLT
+MwNDcxNTkyNSwtMjA4ODc0NjYxMl19
 -->
