@@ -196,13 +196,21 @@ Il faut se poser ces questions dans l'ordre et s'arrêter quand l'on trouve une 
 #### Ignored this
 Si on passe null, undefined dans un explicit binding, ces instructions sont ignorées, et l'on passe au default binding :
 ```js
-function fo
+function foo(){
+    console.log(this.a);
+}
+
+var a = 2;
+
+foo.call(null);//2
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Mjk5ODk2NSw0MDY2MzE0NDksLTIwMj
-QwMjY1MDAsLTExMTM3OTMxOTMsLTQ0NzE3MDczLC02ODQ1NjI4
-MDQsLTEyMTM0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2NzkyNzE0OT
-ksLTg0NjMwMzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMTEsMjEy
-ODQ1ODA3MSwxOTA2MTg1MTgzLDE3ODQ1NTc1NDMsLTE3NzY1ND
-k2NDAsLTMwNDcxNTkyNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTIwNTg0ODI3ODgsNDA2NjMxNDQ5LC0yMD
+I0MDI2NTAwLC0xMTEzNzkzMTkzLC00NDcxNzA3MywtNjg0NTYy
+ODA0LC0xMjEzNDAxMjcyLC0xMzQ0OTkzNjI1LC0xNjc5MjcxND
+k5LC04NDYzMDM0MDQsLTE0MzE3Njc1NDEsMTQzMTYxMDExLDIx
+Mjg0NTgwNzEsMTkwNjE4NTE4MywxNzg0NTU3NTQzLC0xNzc2NT
+Q5NjQwLC0zMDQ3MTU5MjUsLTIwODg3NDY2MTJdfQ==
 -->
