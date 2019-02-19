@@ -5,7 +5,7 @@ En javascript la valeur que représentera this est avant tout dépendant du cont
 ### Default binding
 Cette règle de définition de this, est le mode par défaut, elle s'applique quand aucune des autres règles ne s'applique.
 
-````js
+```js
 function foo(){
     console.log(this.a);
 }
@@ -165,11 +165,12 @@ En JS à la différence des autres langage de programmation orienté objet, l'ut
 Ce qui va entrainer les actions suivantes :
 
 - une nouvelle instance de l'objet sera créer, en suivant les instructions du constructor s'il existe
-- 
+- le nouvel objet est [[Prototype]] -linked
+- le nouvel objet est lié au context d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzE3MDczLC02ODQ1NjI4MDQsLTEyMT
-M0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMw
-MzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MS
-wxOTA2MTg1MTgzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMw
-NDcxNTkyNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE5MDY3MTAwNzksLTQ0NzE3MDczLC02OD
+Q1NjI4MDQsLTEyMTM0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2Nzky
+NzE0OTksLTg0NjMwMzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMT
+EsMjEyODQ1ODA3MSwxOTA2MTg1MTgzLDE3ODQ1NTc1NDMsLTE3
+NzY1NDk2NDAsLTMwNDcxNTkyNSwtMjA4ODc0NjYxMl19
 -->
