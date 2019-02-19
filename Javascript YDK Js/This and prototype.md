@@ -101,11 +101,13 @@ var obj = {
     a:2
 }
 
-foo.call( 
+foo.call( obj ); //2
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTg1OTA3MSwtMTQzMTc2NzU0MSwxND
+eyJoaXN0b3J5IjpbMTU2Mjg4OTgwMiwtMTQzMTc2NzU0MSwxND
 MxNjEwMTEsMjEyODQ1ODA3MSwxOTA2MTg1MTgzLDE3ODQ1NTc1
 NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwtMjA4ODc0NjYxMl
 19
