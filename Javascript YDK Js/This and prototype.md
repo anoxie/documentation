@@ -32,7 +32,10 @@ var obj = {
 
 obj.foo(); //2
 ```
+
+### Implicit lost
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEwNDQ4MDM1NDAsLTE3NzY1NDk2NDAsLT
+MwNDcxNTkyNSwtMjA4ODc0NjYxMl19
 -->
