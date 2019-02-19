@@ -144,11 +144,12 @@ console.log(b); // 5
 ```
 
 ## API Call "Contexts"
-De nom
+De nombreuse API, permettent de passer un context, dans l'appel au varible permettant d'éviter le recours à bind. Exemple :
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0MDA1MTQ3LC0xMjEzNDAxMjcyLC0xMz
-Q0OTkzNjI1LC0xNjc5MjcxNDk5LC04NDYzMDM0MDQsLTE0MzE3
-Njc1NDEsMTQzMTYxMDExLDIxMjg0NTgwNzEsMTkwNjE4NTE4My
-wxNzg0NTU3NTQzLC0xNzc2NTQ5NjQwLC0zMDQ3MTU5MjUsLTIw
-ODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2NzQ5NjI4MDcsLTEyMTM0MDEyNzIsLT
+EzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMwMzQwNCwtMTQz
+MTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MSwxOTA2MTg1MT
+gzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwt
+MjA4ODc0NjYxMl19
 -->
