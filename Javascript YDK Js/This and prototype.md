@@ -166,9 +166,12 @@ Ce qui va entrainer les actions suivantes :
 
 - une nouvelle instance de l'objet sera créer, en suivant les instructions du constructor s'il existe
 - le nouvel objet est [[Prototype]] -linked
-- le nouvel objet est lié au context d
+- le nouvel objet est lié au context de l'appel de cette fonction
+- sauf si la fonction retourne elle même son objet, c'est l'objet nouvellement créer qui sera retourné
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY3MTAwNzksLTQ0NzE3MDczLC02OD
+eyJoaXN0b3J5IjpbLTExMTM3OTMxOTMsLTQ0NzE3MDczLC02OD
 Q1NjI4MDQsLTEyMTM0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2Nzky
 NzE0OTksLTg0NjMwMzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMT
 EsMjEyODQ1ODA3MSwxOTA2MTg1MTgzLDE3ODQ1NTc1NDMsLTE3
