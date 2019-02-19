@@ -65,8 +65,10 @@ var a = "oops, global"; //'a' also property on global object
 bar(); //"oops, global"
 ```
 De la même manière dans cette exemple, alors qu'on pourrait s'attendre à ce que le fonction foo soit lié au contexte de l'objet obj, ce n'est pas le cas, il est possible de passer la fonction foo, comme si elle était déclarer dans bar, faisant ainsi de son contexte non plus obj, mais le lieu d'invocation de bar();
+
+Le contexte le plus commun et le plus subt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTUyMzIxMiwxOTA2MTg1MTgzLDE3OD
-Q1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMzE4NTM2OTMzLDE5MDYxODUxODMsMTc4ND
+U1NzU0MywtMTc3NjU0OTY0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2
+NjEyXX0=
 -->
