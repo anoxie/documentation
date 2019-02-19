@@ -154,10 +154,13 @@ var obj = {
     id: "awesome"
 };
 
-//use 'obj' 
+//use 'obj' as 'this' for 'foo(..)' calls
+[1, 2, 3].forEach( foo, obj); // 1 awesome 2 awesome 3 awesome
 ```
+
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTgwMjgyMDUsLTEyMTM0MDEyNzIsLT
+eyJoaXN0b3J5IjpbLTEzNDI5ODM5NzAsLTEyMTM0MDEyNzIsLT
 EzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMwMzQwNCwtMTQz
 MTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MSwxOTA2MTg1MT
 gzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwt
