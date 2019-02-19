@@ -89,10 +89,11 @@ var a = "oops, global"; // `a` also property on global object
 doFoo( obj.foo ); // "oops, global"
 ```
 ### Explicit Binding
-
+Le
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzE3Njc1NDEsMTQzMTYxMDExLDIxMj
-g0NTgwNzEsMTkwNjE4NTE4MywxNzg0NTU3NTQzLC0xNzc2NTQ5
-NjQwLC0zMDQ3MTU5MjUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTI2ODE0NTc0LC0xNDMxNzY3NTQxLDE0Mz
+E2MTAxMSwyMTI4NDU4MDcxLDE5MDYxODUxODMsMTc4NDU1NzU0
+MywtMTc3NjU0OTY0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2NjEyXX
+0=
 -->
