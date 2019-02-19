@@ -19,8 +19,10 @@ function foo(){
 
 var obj = {
     a:2,
-    foo: foo
+    foo: foo //la fonction foo, pourra dès lors être appelé via obj
 }
+
+obj.foo();
 ```
 
 # Immediatly Invoked Function Expression
@@ -31,6 +33,6 @@ Cette syntaxe permet d’exécuter immédiatement une fonction, exemple :
 }()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4MzEzNTgzLC0xNDcwMDc5ODQ4LDEwNj
-gxMjQ2MzhdfQ==
+eyJoaXN0b3J5IjpbMTI3ODEwNDIxNiwtMTQ3MDA3OTg0OCwxMD
+Y4MTI0NjM4XX0=
 -->
