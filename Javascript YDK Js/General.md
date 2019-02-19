@@ -25,6 +25,8 @@ var obj = {
 obj.foo();
 ```
 
+On peut également définir la fonction dire
+
 # Immediatly Invoked Function Expression
 Cette syntaxe permet d’exécuter immédiatement une fonction, exemple :
 ```javascript
@@ -33,6 +35,6 @@ Cette syntaxe permet d’exécuter immédiatement une fonction, exemple :
 }()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODEwNDIxNiwtMTQ3MDA3OTg0OCwxMD
-Y4MTI0NjM4XX0=
+eyJoaXN0b3J5IjpbNzcyMTI4NTcsLTE0NzAwNzk4NDgsMTA2OD
+EyNDYzOF19
 -->
