@@ -66,9 +66,30 @@ bar(); //"oops, global"
 ```
 De la même manière dans cette exemple, alors qu'on pourrait s'attendre à ce que le fonction foo soit lié au contexte de l'objet obj, ce n'est pas le cas, il est possible de passer la fonction foo, comme si elle était déclarer dans bar, faisant ainsi de son contexte non plus obj, mais le lieu d'invocation de bar();
 
-Le contexte le plus commun et le plus subt
+Le contexte le plus subtile, commun et inattendu au se produit la perte de lien, est le passage d'une fonction callback :
+
+```js
+function foo() {
+	console.log( this.a );
+}
+
+function doFoo(fn) {
+	// `fn` is just another reference to `foo`
+
+	fn(); // <-- call-site!
+}
+
+var obj = {
+	a: 2,
+	foo: foo
+};
+
+var a = "oops, global"; // `a` also property on global object
+
+doFoo( obj.foo ); // "oops, global"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NTM2OTMzLDE5MDYxODUxODMsMTc4ND
-U1NzU0MywtMTc3NjU0OTY0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbMjEyODQ1ODA3MSwxOTA2MTg1MTgzLDE3OD
+Q1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwtMjA4ODc0
+NjYxMl19
 -->
