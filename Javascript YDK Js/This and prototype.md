@@ -26,10 +26,13 @@ function foo(){
 }
 
 var obj = {
-    
-}
+    a:2,
+    foo: foo
+};
+
+obj.foo(); //2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg4OTAzMDksLTMwNDcxNTkyNSwtMj
+eyJoaXN0b3J5IjpbLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwtMj
 A4ODc0NjYxMl19
 -->
