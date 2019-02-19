@@ -160,11 +160,11 @@ var obj = {
 
 ## new Binding
 
-
+En JS à la différence des autres langage de programmation orienté objet, l'utilisation de new ne dépend pas forcément de la déclaration d'une class, et la fonction constructor, n'est qu'une simple fonction.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ0NDk1NzQsLTEyMTM0MDEyNzIsLT
-EzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMwMzQwNCwtMTQz
-MTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MSwxOTA2MTg1MT
-gzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwt
-MjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTY4NDU2MjgwNCwtMTIxMzQwMTI3MiwtMT
+M0NDk5MzYyNSwtMTY3OTI3MTQ5OSwtODQ2MzAzNDA0LC0xNDMx
+NzY3NTQxLDE0MzE2MTAxMSwyMTI4NDU4MDcxLDE5MDYxODUxOD
+MsMTc4NDU1NzU0MywtMTc3NjU0OTY0MCwtMzA0NzE1OTI1LC0y
+MDg4NzQ2NjEyXX0=
 -->
