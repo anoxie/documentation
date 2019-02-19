@@ -127,11 +127,22 @@ setTimeout( bar, 100 ); //2
 bar.call(window); //2
 ```
 Depuis ES5 il existe une fonction native dans javascript pour réaliser le hard binding, il s'agit de bind(), exemple :
-````js
+```js
+function foo(something){
+    console.log(this.a, something);
+    return this.a + something;
+}
+
+var obj = {
+    a: 2
+};
+
+var bar = 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLT
-g0NjMwMzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1
-ODA3MSwxOTA2MTg1MTgzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2ND
-AsLTMwNDcxNTkyNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTY4MDg0MDM1NSwtMTM0NDk5MzYyNSwtMT
+Y3OTI3MTQ5OSwtODQ2MzAzNDA0LC0xNDMxNzY3NTQxLDE0MzE2
+MTAxMSwyMTI4NDU4MDcxLDE5MDYxODUxODMsMTc4NDU1NzU0My
+wtMTc3NjU0OTY0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2NjEyXX0=
+
 -->
