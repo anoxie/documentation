@@ -194,12 +194,12 @@ Il faut se poser ces questions dans l'ordre et s'arrêter quand l'on trouve une 
 
 ### Binding exceptions
 #### Ignored this
-Si on passe null, undefined qu
+Si on passe null, undefined dans un explicit binding, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTA5MTMyLDQwNjYzMTQ0OSwtMjAyND
-AyNjUwMCwtMTExMzc5MzE5MywtNDQ3MTcwNzMsLTY4NDU2Mjgw
-NCwtMTIxMzQwMTI3MiwtMTM0NDk5MzYyNSwtMTY3OTI3MTQ5OS
-wtODQ2MzAzNDA0LC0xNDMxNzY3NTQxLDE0MzE2MTAxMSwyMTI4
-NDU4MDcxLDE5MDYxODUxODMsMTc4NDU1NzU0MywtMTc3NjU0OT
-Y0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEzNDQ3MTM5MTgsNDA2NjMxNDQ5LC0yMD
+I0MDI2NTAwLC0xMTEzNzkzMTkzLC00NDcxNzA3MywtNjg0NTYy
+ODA0LC0xMjEzNDAxMjcyLC0xMzQ0OTkzNjI1LC0xNjc5MjcxND
+k5LC04NDYzMDM0MDQsLTE0MzE3Njc1NDEsMTQzMTYxMDExLDIx
+Mjg0NTgwNzEsMTkwNjE4NTE4MywxNzg0NTU3NTQzLC0xNzc2NT
+Q5NjQwLC0zMDQ3MTU5MjUsLTIwODg3NDY2MTJdfQ==
 -->
