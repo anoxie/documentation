@@ -52,7 +52,20 @@ bar(); //"oops, global"
     
 ```
 Dans l'exemple précédent bar, n'est pas une référence à l'objet obj, mais uniquement à la fonction foo(), de fait le context de foo() quand invoqué via bar, et le contexte global, et non celui de l'objet obj.
+
+```js
+var obj = {
+    a: 2,
+    foo: function (){console.log(this.a);}
+};
+
+var bar = obj.foo; //function reference/alias!
+var a = "oops, global"; //'a' also property on global object
+
+bar(); //"oops, global"
+```
+De la même d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3ODk5NzIsMTc4NDU1NzU0MywtMTc3Nj
-U0OTY0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE5MDIwMjg3NzksMTc4NDU1NzU0MywtMT
+c3NjU0OTY0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2NjEyXX0=
 -->
