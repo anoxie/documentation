@@ -183,11 +183,16 @@ console.log(bar.a); //2
 
 ## Précédence
 new binding > explicit binding > implicit binding > default binding
+
+### Déterminer this
+Il faut se poser ces questions dans l'ordre et s'arrêter quand l'on trouve une réponse positive :
+
+- est-ce que la fonction est appelé avec new 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NjMxNDQ5LC0yMDI0MDI2NTAwLC0xMT
-EzNzkzMTkzLC00NDcxNzA3MywtNjg0NTYyODA0LC0xMjEzNDAx
-MjcyLC0xMzQ0OTkzNjI1LC0xNjc5MjcxNDk5LC04NDYzMDM0MD
-QsLTE0MzE3Njc1NDEsMTQzMTYxMDExLDIxMjg0NTgwNzEsMTkw
-NjE4NTE4MywxNzg0NTU3NTQzLC0xNzc2NTQ5NjQwLC0zMDQ3MT
-U5MjUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTExNzg5NzY2MDQsNDA2NjMxNDQ5LC0yMD
+I0MDI2NTAwLC0xMTEzNzkzMTkzLC00NDcxNzA3MywtNjg0NTYy
+ODA0LC0xMjEzNDAxMjcyLC0xMzQ0OTkzNjI1LC0xNjc5MjcxND
+k5LC04NDYzMDM0MDQsLTE0MzE3Njc1NDEsMTQzMTYxMDExLDIx
+Mjg0NTgwNzEsMTkwNjE4NTE4MywxNzg0NTU3NTQzLC0xNzc2NT
+Q5NjQwLC0zMDQ3MTU5MjUsLTIwODg3NDY2MTJdfQ==
 -->
