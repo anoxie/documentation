@@ -108,11 +108,24 @@ Consiste à utiliser l'explicit Binding pour lier la fonction à l'objet obj, é
 
 ```js
 function foo(){
+    console.log( this.a );
+}
+
+var obj = {
+    a: 2
+};
+
+var bar = function() {
+    foo.call(obj);
+};
+
+bar(); //2
+setTimeout( bar, 100 )
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTQ2MTQxNywtODQ2MzAzNDA0LC0xND
+eyJoaXN0b3J5IjpbMTQ5ODU4NTU5NiwtODQ2MzAzNDA0LC0xND
 MxNzY3NTQxLDE0MzE2MTAxMSwyMTI4NDU4MDcxLDE5MDYxODUx
 ODMsMTc4NDU1NzU0MywtMTc3NjU0OTY0MCwtMzA0NzE1OTI1LC
 0yMDg4NzQ2NjEyXX0=
