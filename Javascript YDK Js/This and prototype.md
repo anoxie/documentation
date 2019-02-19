@@ -64,8 +64,8 @@ var a = "oops, global"; //'a' also property on global object
 
 bar(); //"oops, global"
 ```
-De la même d
+De la même manière dans cette exemple, alors qu'on pourrait s'attendre à ce que le fonction foo soit lié au contexte l'objet obj, ce n'est pas le cas, il est possible de passer la 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDIwMjg3NzksMTc4NDU1NzU0MywtMT
-c3NjU0OTY0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMjE1NzI4MTIyLDE3ODQ1NTc1NDMsLTE3Nz
+Y1NDk2NDAsLTMwNDcxNTkyNSwtMjA4ODc0NjYxMl19
 -->
