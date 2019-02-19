@@ -51,8 +51,8 @@ var a = "oops, global"; //'a' also property on global object
 bar(); //"oops, global"
     
 ```
-Dans l'exemple précédent bar, n'est pas une référence à l'objet obj, mais uniquement à la fonction foo(), de fait le context de foo() quand invoqué via bar, et le contexte global, et non celui de l'
+Dans l'exemple précédent bar, n'est pas une référence à l'objet obj, mais uniquement à la fonction foo(), de fait le context de foo() quand invoqué via bar, et le contexte global, et non celui de l'objet obj.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzIzODkxNywxNzg0NTU3NTQzLC0xNz
-c2NTQ5NjQwLC0zMDQ3MTU5MjUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNTQ3ODk5NzIsMTc4NDU1NzU0MywtMTc3Nj
+U0OTY0MCwtMzA0NzE1OTI1LC0yMDg4NzQ2NjEyXX0=
 -->
