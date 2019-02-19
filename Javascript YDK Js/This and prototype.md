@@ -15,8 +15,8 @@ var a = 2;
 foo(); //2
 ```
 
-Concrètement this.a fait référence
+Concrètement this.a fait référence à la variable global a, ici le fonctionnement de this, n'est pas différent de celui de la scope lexical.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1MjY5NDkwLC0zMDQ3MTU5MjUsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTYzMzQ4NDk0NCwtMzA0NzE1OTI1LC0yMD
+g4NzQ2NjEyXX0=
 -->
