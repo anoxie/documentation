@@ -15,7 +15,7 @@ var a = 2;
 foo(); //2
 ```
 
-Concrètement this.a fait référence à la variable global a, ici le fonctionnement de this, n'est pas différent de celui de la scope lexical.
+Concrètement this.a fait référence à la variable global a, ici le fonctionnement de this, n'est pas différent de celui de la scope lexical. Si le mode d’exécution strict est activé, this.a aura
 
 ### Implicit binding
 Cette règle s'applique quand l'appel à this, est relatif au contexte d'un objet.
@@ -36,6 +36,6 @@ obj.foo(); //2
 ### Implicit lost
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQ4MDM1NDAsLTE3NzY1NDk2NDAsLT
-MwNDcxNTkyNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTU1NTg3MTIwLC0xNzc2NTQ5NjQwLC0zMD
+Q3MTU5MjUsLTIwODg3NDY2MTJdfQ==
 -->
