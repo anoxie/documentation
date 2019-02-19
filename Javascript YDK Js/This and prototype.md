@@ -45,10 +45,13 @@ var obj = {
     foo: foo
 };
 
-var bar = obj.foo
+var bar = obj.foo; //function reference/alias!
+var a = "oops, global"; //'a' also property on global object
+
+bar(); //"oops, global"
     
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjIwNjkxODgsLTE3NzY1NDk2NDAsLT
-MwNDcxNTkyNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTc4NDU1NzU0MywtMTc3NjU0OTY0MCwtMz
+A0NzE1OTI1LC0yMDg4NzQ2NjEyXX0=
 -->
