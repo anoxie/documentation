@@ -208,9 +208,14 @@ foo.call(null);//2
 
 Au lieu de passer null, il est préférable de passer un objet vide, pour créer une sorte de DMZ, qui évitera d'éventuelles sideEffects qui serait lié au contexte global. 
 
-
+La manière la plus simple de créer un objet vide est ```Object.create(null)``` Exemple :
+```js
+function foo(a,b){
+    console.log("a:" + a + ", b:" + b);
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc0MjIzNTUsNjk0MjU2Mzg3LDE3Nj
+eyJoaXN0b3J5IjpbLTE1ODI5ODk1NTgsNjk0MjU2Mzg3LDE3Nj
 c3MjI1MTQsMTUyNDIwMTYyMCwtMjA1ODQ4Mjc4OCw0MDY2MzE0
 NDksLTIwMjQwMjY1MDAsLTExMTM3OTMxOTMsLTQ0NzE3MDczLC
 02ODQ1NjI4MDQsLTEyMTM0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2
