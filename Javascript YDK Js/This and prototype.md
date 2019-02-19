@@ -143,7 +143,7 @@ var b = bar(3); // 2 3
 console.log(b); // 5
 ```
 
-## API Call "Contexts"
+### API Call "Contexts"
 De nombreuse API, permettent de passer un context, dans l'appel au varible permettant d'éviter le recours à bind. Exemple :
 ```js
 function foo(el) {
@@ -158,9 +158,11 @@ var obj = {
 [1, 2, 3].forEach( foo, obj); // 1 awesome 2 awesome 3 awesome
 ```
 
-##
+## new Binding
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI5ODM5NzAsLTEyMTM0MDEyNzIsLT
+eyJoaXN0b3J5IjpbLTIwOTQ0NDk1NzQsLTEyMTM0MDEyNzIsLT
 EzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMwMzQwNCwtMTQz
 MTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MSwxOTA2MTg1MT
 gzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwt
