@@ -18,8 +18,18 @@ foo(); //2
 Concrètement this.a fait référence à la variable global a, ici le fonctionnement de this, n'est pas différent de celui de la scope lexical.
 
 ### Implicit binding
-Cette règle c
+Cette règle s'applique quand l'appel à this, est relatif au contexte d'un objet.
+
+```js
+function foo(){
+    console.log(this.a);
+}
+
+var obj = {
+    
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU0OTcwMjEsLTMwNDcxNTkyNSwtMj
+eyJoaXN0b3J5IjpbLTEwMDg4OTAzMDksLTMwNDcxNTkyNSwtMj
 A4ODc0NjYxMl19
 -->
