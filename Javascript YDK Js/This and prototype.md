@@ -160,9 +160,14 @@ var obj = {
 
 ## new Binding
 
-En JS à la différence des autres langage de programmation orienté objet, l'utilisation de new ne dépend pas forcément de la déclaration d'une class, et la fonction constructor, n'est qu'une simple fonction. De fait il est possible d'utiliser le mot clef new pour appeler une fo
+En JS à la différence des autres langage de programmation orienté objet, l'utilisation de new ne dépend pas forcément de la déclaration d'une class, et la fonction constructor, n'est qu'une simple fonction. De fait il est possible d'utiliser le mot clef new pour appeler une fonction.
+
+Ce qui va entrainer les actions suivantes :
+
+- une nouvelle instance de l'objet sera créer, en suivant les instructions du constructor s'il existe
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5NjE5MTgyLC02ODQ1NjI4MDQsLTEyMT
+eyJoaXN0b3J5IjpbLTQ0NzE3MDczLC02ODQ1NjI4MDQsLTEyMT
 M0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMw
 MzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MS
 wxOTA2MTg1MTgzLDE3ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMw
