@@ -182,12 +182,12 @@ console.log(bar.a); //2
 ```
 
 ## Précédence
-explicit binding > implicit binding > default binding
+new binding > explicit binding > implicit binding > default binding
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQwMjY1MDAsLTExMTM3OTMxOTMsLT
-Q0NzE3MDczLC02ODQ1NjI4MDQsLTEyMTM0MDEyNzIsLTEzNDQ5
-OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMwMzQwNCwtMTQzMTc2Nz
-U0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MSwxOTA2MTg1MTgzLDE3
-ODQ1NTc1NDMsLTE3NzY1NDk2NDAsLTMwNDcxNTkyNSwtMjA4OD
-c0NjYxMl19
+eyJoaXN0b3J5IjpbNDA2NjMxNDQ5LC0yMDI0MDI2NTAwLC0xMT
+EzNzkzMTkzLC00NDcxNzA3MywtNjg0NTYyODA0LC0xMjEzNDAx
+MjcyLC0xMzQ0OTkzNjI1LC0xNjc5MjcxNDk5LC04NDYzMDM0MD
+QsLTE0MzE3Njc1NDEsMTQzMTYxMDExLDIxMjg0NTgwNzEsMTkw
+NjE4NTE4MywxNzg0NTU3NTQzLC0xNzc2NTQ5NjQwLC0zMDQ3MT
+U5MjUsLTIwODg3NDY2MTJdfQ==
 -->
