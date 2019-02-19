@@ -188,9 +188,10 @@ new binding > explicit binding > implicit binding > default binding
 Il faut se poser ces questions dans l'ordre et s'arrêter quand l'on trouve une réponse positive :
 
 - est-ce que la fonction est appelé avec new ? Si oui, this est l'objet nouvellement construit.
-- est-ce que la fonction est appelé avec call, apply ou bind ? Si oui, il s'agit d'un hard-binding, this est l'objet explicitement 
+- est-ce que la fonction est appelé avec call, apply ou bind ? Si oui, il s'agit d'un hard-binding, this est l'objet explicitement  spécifié.
+- est-ce que la fonction est appelé via un objet ? Si oui, il s'agit d'un implicit binding, this est l'objet d'où la fonction e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2NDU1MDIyLDQwNjYzMTQ0OSwtMjAyND
+eyJoaXN0b3J5IjpbOTA4MDM5MTI4LDQwNjYzMTQ0OSwtMjAyND
 AyNjUwMCwtMTExMzc5MzE5MywtNDQ3MTcwNzMsLTY4NDU2Mjgw
 NCwtMTIxMzQwMTI3MiwtMTM0NDk5MzYyNSwtMTY3OTI3MTQ5OS
 wtODQ2MzAzNDA0LC0xNDMxNzY3NTQxLDE0MzE2MTAxMSwyMTI4
