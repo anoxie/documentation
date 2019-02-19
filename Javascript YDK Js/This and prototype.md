@@ -34,8 +34,21 @@ obj.foo(); //2
 ```
 
 #### Implicitly lost
-Il peut assez facilement arriver de perdre l'implicit binding, ce qui modifiera la valeur de this, du context lo
+Il peut assez facilement arriver de perdre l'implicit binding, ce qui modifiera la valeur de this, du context local vers le context global, exemple :
+```js
+function foo(){
+    console.log(this.a);
+}
+
+var obj = {
+    a: 2,
+    foo: foo
+};
+
+var bar = obj.foo
+    
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQwNjEzNzYsLTE3NzY1NDk2NDAsLT
+eyJoaXN0b3J5IjpbLTE4MjIwNjkxODgsLTE3NzY1NDk2NDAsLT
 MwNDcxNTkyNSwtMjA4ODc0NjYxMl19
 -->
