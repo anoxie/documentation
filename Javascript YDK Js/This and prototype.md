@@ -244,13 +244,13 @@ o.foo(); // 3
 ## Lexical this
 
 ES6 introduit un type de fonction qui ne respecte pas les règles de précédence, il s'agit des arrow-function. Fonction déclarer avec => et non pas le mot clef function.
-Au lieu d'utiliser les règles de précédences
+Au lieu d'utiliser les règles de précédences il s'agit d'un binding par enclosure, d'abord le context de la 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMzNjQ3MTQsNzY3MDk1NjM3LC0xOTgxMj
-I5MzE2LDE2ODk5MDM4NzUsNjk0MjU2Mzg3LDE3Njc3MjI1MTQs
-MTUyNDIwMTYyMCwtMjA1ODQ4Mjc4OCw0MDY2MzE0NDksLTIwMj
-QwMjY1MDAsLTExMTM3OTMxOTMsLTQ0NzE3MDczLC02ODQ1NjI4
-MDQsLTEyMTM0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2NzkyNzE0OT
-ksLTg0NjMwMzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMTEsMjEy
-ODQ1ODA3MV19
+eyJoaXN0b3J5IjpbMTMyNzY1OTQzOSw0MzM2NDcxNCw3NjcwOT
+U2MzcsLTE5ODEyMjkzMTYsMTY4OTkwMzg3NSw2OTQyNTYzODcs
+MTc2NzcyMjUxNCwxNTI0MjAxNjIwLC0yMDU4NDgyNzg4LDQwNj
+YzMTQ0OSwtMjAyNDAyNjUwMCwtMTExMzc5MzE5MywtNDQ3MTcw
+NzMsLTY4NDU2MjgwNCwtMTIxMzQwMTI3MiwtMTM0NDk5MzYyNS
+wtMTY3OTI3MTQ5OSwtODQ2MzAzNDA0LC0xNDMxNzY3NTQxLDE0
+MzE2MTAxMV19
 -->
