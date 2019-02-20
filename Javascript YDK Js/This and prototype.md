@@ -263,13 +263,33 @@ if (!Function.prototype.softBind) {
 		return bound;
 	};
 }
+
+//utilisation
+function foo() {
+   console.log("name: " + this.name);
+}
+
+var obj = { name: "obj" },
+    obj2 = { name: "obj2" },
+    obj3 = { name: "obj3" };
+
+var fooOBJ = foo.softBind( obj );
+
+fooOBJ(); // name: obj
+
+obj2.foo = foo.softBind(obj);
+obj2.foo(); // name: obj2   <---- look!!!
+
+fooOBJ.call( obj3 ); // name: obj3   <---- look!
+
+setTimeout( obj2.foo, 10 ); // name: obj   <---- falls back to soft-binding
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3MDk1NjM3LC0xOTgxMjI5MzE2LDE2OD
-k5MDM4NzUsNjk0MjU2Mzg3LDE3Njc3MjI1MTQsMTUyNDIwMTYy
-MCwtMjA1ODQ4Mjc4OCw0MDY2MzE0NDksLTIwMjQwMjY1MDAsLT
-ExMTM3OTMxOTMsLTQ0NzE3MDczLC02ODQ1NjI4MDQsLTEyMTM0
-MDEyNzIsLTEzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMwMz
-QwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMTEsMjEyODQ1ODA3MSwx
-OTA2MTg1MTgzXX0=
+eyJoaXN0b3J5IjpbMzYxMDU2NjMxLDc2NzA5NTYzNywtMTk4MT
+IyOTMxNiwxNjg5OTAzODc1LDY5NDI1NjM4NywxNzY3NzIyNTE0
+LDE1MjQyMDE2MjAsLTIwNTg0ODI3ODgsNDA2NjMxNDQ5LC0yMD
+I0MDI2NTAwLC0xMTEzNzkzMTkzLC00NDcxNzA3MywtNjg0NTYy
+ODA0LC0xMjEzNDAxMjcyLC0xMzQ0OTkzNjI1LC0xNjc5MjcxND
+k5LC04NDYzMDM0MDQsLTE0MzE3Njc1NDEsMTQzMTYxMDExLDIx
+Mjg0NTgwNzFdfQ==
 -->
