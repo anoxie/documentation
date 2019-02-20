@@ -288,9 +288,22 @@ Concrètement le recours à => permet de désactiver les mécanismes de this, po
 
 # Objects
 ## Syntax
-Décla
+Déclaration littéral :
+```js
+var myObj = {
+    key: value
+}
+```
+
+Déclaration avec un constructeur :
+```js
+var myObj = new Object();
+myObj.key = value;
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDc2NDI1OCw3NjkyNTQ4OTUsMTAxNT
+eyJoaXN0b3J5IjpbLTE1MjIxMjA4NSw3NjkyNTQ4OTUsMTAxNT
 YwMDExOCwxMzI3NjU5NDM5LDQzMzY0NzE0LDc2NzA5NTYzNywt
 MTk4MTIyOTMxNiwxNjg5OTAzODc1LDY5NDI1NjM4NywxNzY3Nz
 IyNTE0LDE1MjQyMDE2MjAsLTIwNTg0ODI3ODgsNDA2NjMxNDQ5
