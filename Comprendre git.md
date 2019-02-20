@@ -61,8 +61,13 @@ permet de récupérer les changements précédemment mis en stash sur la branch 
 git stash apply
 ```
 
-````
+
 permet de récupérer ce qui est stocké dans le stash sans le supprimer.
+
+```bash
+git stash clear
+```
+supprimer tout ce qui a été stocké dans stach
   
 ```bash
 git push origin master
@@ -254,7 +259,7 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQxMDcyNTAsOTMwNjkwNTM4LDEwMT
-I0NDMyODIsLTE2OTgwODQ4MDAsMTkwODM2NjI5NSwtMzg3NTc2
-OTg0XX0=
+eyJoaXN0b3J5IjpbLTk0NzU2ODE1OSw5MzA2OTA1MzgsMTAxMj
+Q0MzI4MiwtMTY5ODA4NDgwMCwxOTA4MzY2Mjk1LC0zODc1NzY5
+ODRdfQ==
 -->
