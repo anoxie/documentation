@@ -270,10 +270,21 @@ Le context d'appel de la function foo devient obj1 quand ```var bar = foo.call(o
 
 Le cas d'utilisation le plus fréquent est l'utilisation d'une fonction de callback, exemple :
 
+```js
+funciton foo(){
+    setTimeout(() => {
+        //this here is lexically adopted from 'foo()'
+        console.log(this.a);
+},100);
+}
 
+var obj = {
+    a: 2
+};
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjM3MjI1MCwxMzI3NjU5NDM5LDQzMz
+eyJoaXN0b3J5IjpbLTIxNzI4ODA3NCwxMzI3NjU5NDM5LDQzMz
 Y0NzE0LDc2NzA5NTYzNywtMTk4MTIyOTMxNiwxNjg5OTAzODc1
 LDY5NDI1NjM4NywxNzY3NzIyNTE0LDE1MjQyMDE2MjAsLTIwNT
 g0ODI3ODgsNDA2NjMxNDQ5LC0yMDI0MDI2NTAwLC0xMTEzNzkz
