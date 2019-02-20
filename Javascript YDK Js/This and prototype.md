@@ -284,13 +284,13 @@ var obj = {
 
 foo.call(obj); //2
 ```
-Concrètement le recours à => permet de désactiver les mécanismes de this, pour le rendre conforme à la sccope lexical.
+Concrètement le recours à => permet de désactiver les mécanismes de this, pour le rendre conforme à la scope lexical.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTYwMDExOCwxMzI3NjU5NDM5LDQzMz
-Y0NzE0LDc2NzA5NTYzNywtMTk4MTIyOTMxNiwxNjg5OTAzODc1
-LDY5NDI1NjM4NywxNzY3NzIyNTE0LDE1MjQyMDE2MjAsLTIwNT
-g0ODI3ODgsNDA2NjMxNDQ5LC0yMDI0MDI2NTAwLC0xMTEzNzkz
-MTkzLC00NDcxNzA3MywtNjg0NTYyODA0LC0xMjEzNDAxMjcyLC
-0xMzQ0OTkzNjI1LC0xNjc5MjcxNDk5LC04NDYzMDM0MDQsLTE0
-MzE3Njc1NDFdfQ==
+eyJoaXN0b3J5IjpbNzY5MjU0ODk1LDEwMTU2MDAxMTgsMTMyNz
+Y1OTQzOSw0MzM2NDcxNCw3NjcwOTU2MzcsLTE5ODEyMjkzMTYs
+MTY4OTkwMzg3NSw2OTQyNTYzODcsMTc2NzcyMjUxNCwxNTI0Mj
+AxNjIwLC0yMDU4NDgyNzg4LDQwNjYzMTQ0OSwtMjAyNDAyNjUw
+MCwtMTExMzc5MzE5MywtNDQ3MTcwNzMsLTY4NDU2MjgwNCwtMT
+IxMzQwMTI3MiwtMTM0NDk5MzYyNSwtMTY3OTI3MTQ5OSwtODQ2
+MzAzNDA0XX0=
 -->
