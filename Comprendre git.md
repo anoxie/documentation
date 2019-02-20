@@ -23,8 +23,6 @@ Il doit être atomique, il ne doit concerner qu’une seule chose, être le plus
 
 ## Un commit étape par étape :
 
-![](https://lh3.googleusercontent.com/dCBMYYifVd7GOI67ke4ssSvqYqAIohiSB2X6R0cFihbc6KkxvlrwhAQfhnnSjDrOz0rh1zupowzf2Ads0Il4VS8vZLjMaJ26CYB4Z64LTCiFxaCyOOmzo6t8eflZ52k7hGc-twbw)
-
 ```bash
 git add <nom_de_fichier>
 ```
@@ -254,6 +252,6 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjQ0MzI4MiwtMTY5ODA4NDgwMCwxOT
-A4MzY2Mjk1LC0zODc1NzY5ODRdfQ==
+eyJoaXN0b3J5IjpbOTMwNjkwNTM4LDEwMTI0NDMyODIsLTE2OT
+gwODQ4MDAsMTkwODM2NjI5NSwtMzg3NTc2OTg0XX0=
 -->
