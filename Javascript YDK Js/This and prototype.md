@@ -227,13 +227,19 @@ bar(3); // a:2, b:3
 
 ### Indirection
 
-Il peut arriver que l'on fasse de manière intentionnelle ou non, des références indirect à une fonction. Exemple :
+Il peut arriver que l'on fasse de manière intentionnelle ou non, des références indirect à une fonction. Dans ce cas également les règ Exemple :
 ```js
-function
+function foo(){
+    console.log( this.a );
+}
+
+var a = 2;
+var o = { a:3, foo: foo };
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODM1ODk2ODMsMTY4OTkwMzg3NSw2OT
+eyJoaXN0b3J5IjpbLTIxNDI4MzM4MDgsMTY4OTkwMzg3NSw2OT
 QyNTYzODcsMTc2NzcyMjUxNCwxNTI0MjAxNjIwLC0yMDU4NDgy
 Nzg4LDQwNjYzMTQ0OSwtMjAyNDAyNjUwMCwtMTExMzc5MzE5My
 wtNDQ3MTcwNzMsLTY4NDU2MjgwNCwtMTIxMzQwMTI3MiwtMTM0
