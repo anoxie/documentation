@@ -241,55 +241,15 @@ var p = { a: 4 };
 o.foo(); // 3
 (p.foo = o.foo)(); //2
 ```
-### Softening Binding
-Il est possible de prévenir le défaut binding, sans recourir au hard binding, ce qui permet de conserver la souplesse des fonctions :
-```js
-if (!Function.prototype.softBind) {
-	Function.prototype.softBind = function(obj) {
-		var fn = this,
-			curried = [].slice.call( arguments, 1 ),
-			bound = function bound() {
-				return fn.apply(
-					(!this ||
-						(typeof window !== "undefined" &&
-							this === window) ||
-						(typeof global !== "undefined" &&
-							this === global)
-					) ? obj : this,
-					curried.concat.apply( curried, arguments )
-				);
-			};
-		bound.prototype = Object.create( fn.prototype );
-		return bound;
-	};
-}
+## Lexical this
 
-//utilisation
-function foo() {
-   console.log("name: " + this.name);
-}
-
-var obj = { name: "obj" },
-    obj2 = { name: "obj2" },
-    obj3 = { name: "obj3" };
-
-var fooOBJ = foo.softBind( obj );
-
-fooOBJ(); // name: obj
-
-obj2.foo = foo.softBind(obj);
-obj2.foo(); // name: obj2   <---- look!!!
-
-fooOBJ.call( obj3 ); // name: obj3   <---- look!
-
-setTimeout( obj2.foo, 10 ); // name: obj   <---- falls back to soft-binding
-```
+ES6 int
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxMDU2NjMxLDc2NzA5NTYzNywtMTk4MT
-IyOTMxNiwxNjg5OTAzODc1LDY5NDI1NjM4NywxNzY3NzIyNTE0
-LDE1MjQyMDE2MjAsLTIwNTg0ODI3ODgsNDA2NjMxNDQ5LC0yMD
-I0MDI2NTAwLC0xMTEzNzkzMTkzLC00NDcxNzA3MywtNjg0NTYy
-ODA0LC0xMjEzNDAxMjcyLC0xMzQ0OTkzNjI1LC0xNjc5MjcxND
-k5LC04NDYzMDM0MDQsLTE0MzE3Njc1NDEsMTQzMTYxMDExLDIx
-Mjg0NTgwNzFdfQ==
+eyJoaXN0b3J5IjpbLTE1MjIwMTMxNDksNzY3MDk1NjM3LC0xOT
+gxMjI5MzE2LDE2ODk5MDM4NzUsNjk0MjU2Mzg3LDE3Njc3MjI1
+MTQsMTUyNDIwMTYyMCwtMjA1ODQ4Mjc4OCw0MDY2MzE0NDksLT
+IwMjQwMjY1MDAsLTExMTM3OTMxOTMsLTQ0NzE3MDczLC02ODQ1
+NjI4MDQsLTEyMTM0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2NzkyNz
+E0OTksLTg0NjMwMzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMTEs
+MjEyODQ1ODA3MV19
 -->
