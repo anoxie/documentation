@@ -266,14 +266,16 @@ var obj2 = {
 var bar = foo.call(obj1);
 bar.call( obj2 ); //2, not 3!
 ```
-Le
+Le context d'appel de la function foo devient obj1 quand ```var bar = foo.call(obj1);```, comme il ne peux pas être réécrit, ça restera obj1.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU5MzA3NTcsMTMyNzY1OTQzOSw0Mz
-M2NDcxNCw3NjcwOTU2MzcsLTE5ODEyMjkzMTYsMTY4OTkwMzg3
-NSw2OTQyNTYzODcsMTc2NzcyMjUxNCwxNTI0MjAxNjIwLC0yMD
-U4NDgyNzg4LDQwNjYzMTQ0OSwtMjAyNDAyNjUwMCwtMTExMzc5
-MzE5MywtNDQ3MTcwNzMsLTY4NDU2MjgwNCwtMTIxMzQwMTI3Mi
-wtMTM0NDk5MzYyNSwtMTY3OTI3MTQ5OSwtODQ2MzAzNDA0LC0x
-NDMxNzY3NTQxXX0=
+eyJoaXN0b3J5IjpbLTc4MTU3MDg2LDEzMjc2NTk0MzksNDMzNj
+Q3MTQsNzY3MDk1NjM3LC0xOTgxMjI5MzE2LDE2ODk5MDM4NzUs
+Njk0MjU2Mzg3LDE3Njc3MjI1MTQsMTUyNDIwMTYyMCwtMjA1OD
+Q4Mjc4OCw0MDY2MzE0NDksLTIwMjQwMjY1MDAsLTExMTM3OTMx
+OTMsLTQ0NzE3MDczLC02ODQ1NjI4MDQsLTEyMTM0MDEyNzIsLT
+EzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMwMzQwNCwtMTQz
+MTc2NzU0MV19
 -->
