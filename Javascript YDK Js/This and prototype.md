@@ -251,11 +251,23 @@ function foo(){
     //return an arrow function
     return (a) => {
         //'this' here is lexically adopted from 'foo()'
-        console.log
+        console.log( this.a ) ;
+    };
 }
+
+var obj1 = {
+    a: 2
+};
+
+var obj2 = {
+    a: 3
+};
+
+var bar = foo.call(obj1);
+bar.call( obj2 ); //2,
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyMTUxMjA3LDEzMjc2NTk0MzksNDMzNj
+eyJoaXN0b3J5IjpbMjAwMzQ1MDUxLDEzMjc2NTk0MzksNDMzNj
 Q3MTQsNzY3MDk1NjM3LC0xOTgxMjI5MzE2LDE2ODk5MDM4NzUs
 Njk0MjU2Mzg3LDE3Njc3MjI1MTQsMTUyNDIwMTYyMCwtMjA1OD
 Q4Mjc4OCw0MDY2MzE0NDksLTIwMjQwMjY1MDAsLTExMTM3OTMx
