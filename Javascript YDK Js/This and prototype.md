@@ -268,14 +268,16 @@ bar.call( obj2 ); //2, not 3!
 ```
 Le context d'appel de la function foo devient obj1 quand ```var bar = foo.call(obj1);```, comme il ne peux pas être réécrit, ça restera obj1.
 
+Le cas d'utilisation le plus fréquent est l'utilisation d'une fonction de callback, exemple :
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTU3MDg2LDEzMjc2NTk0MzksNDMzNj
-Q3MTQsNzY3MDk1NjM3LC0xOTgxMjI5MzE2LDE2ODk5MDM4NzUs
-Njk0MjU2Mzg3LDE3Njc3MjI1MTQsMTUyNDIwMTYyMCwtMjA1OD
-Q4Mjc4OCw0MDY2MzE0NDksLTIwMjQwMjY1MDAsLTExMTM3OTMx
-OTMsLTQ0NzE3MDczLC02ODQ1NjI4MDQsLTEyMTM0MDEyNzIsLT
-EzNDQ5OTM2MjUsLTE2NzkyNzE0OTksLTg0NjMwMzQwNCwtMTQz
-MTc2NzU0MV19
+eyJoaXN0b3J5IjpbMTkxMjM3MjI1MCwxMzI3NjU5NDM5LDQzMz
+Y0NzE0LDc2NzA5NTYzNywtMTk4MTIyOTMxNiwxNjg5OTAzODc1
+LDY5NDI1NjM4NywxNzY3NzIyNTE0LDE1MjQyMDE2MjAsLTIwNT
+g0ODI3ODgsNDA2NjMxNDQ5LC0yMDI0MDI2NTAwLC0xMTEzNzkz
+MTkzLC00NDcxNzA3MywtNjg0NTYyODA0LC0xMjEzNDAxMjcyLC
+0xMzQ0OTkzNjI1LC0xNjc5MjcxNDk5LC04NDYzMDM0MDQsLTE0
+MzE3Njc1NDFdfQ==
 -->
