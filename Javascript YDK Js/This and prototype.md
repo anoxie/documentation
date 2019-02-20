@@ -243,13 +243,14 @@ o.foo(); // 3
 ```
 ## Lexical this
 
-ES6 introduit un type de fonction qui ne respecte pas les règles de précédence, il s'agit des arrow-function. Fonction déclarer avec => et non plus le mot
+ES6 introduit un type de fonction qui ne respecte pas les règles de précédence, il s'agit des arrow-function. Fonction déclarer avec => et non pas le mot clef function.
+Au lieu d'utiliser les règles de précédences
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDQ2Mjg4OCw3NjcwOTU2MzcsLTE5OD
-EyMjkzMTYsMTY4OTkwMzg3NSw2OTQyNTYzODcsMTc2NzcyMjUx
-NCwxNTI0MjAxNjIwLC0yMDU4NDgyNzg4LDQwNjYzMTQ0OSwtMj
-AyNDAyNjUwMCwtMTExMzc5MzE5MywtNDQ3MTcwNzMsLTY4NDU2
-MjgwNCwtMTIxMzQwMTI3MiwtMTM0NDk5MzYyNSwtMTY3OTI3MT
-Q5OSwtODQ2MzAzNDA0LC0xNDMxNzY3NTQxLDE0MzE2MTAxMSwy
-MTI4NDU4MDcxXX0=
+eyJoaXN0b3J5IjpbNDMzNjQ3MTQsNzY3MDk1NjM3LC0xOTgxMj
+I5MzE2LDE2ODk5MDM4NzUsNjk0MjU2Mzg3LDE3Njc3MjI1MTQs
+MTUyNDIwMTYyMCwtMjA1ODQ4Mjc4OCw0MDY2MzE0NDksLTIwMj
+QwMjY1MDAsLTExMTM3OTMxOTMsLTQ0NzE3MDczLC02ODQ1NjI4
+MDQsLTEyMTM0MDEyNzIsLTEzNDQ5OTM2MjUsLTE2NzkyNzE0OT
+ksLTg0NjMwMzQwNCwtMTQzMTc2NzU0MSwxNDMxNjEwMTEsMjEy
+ODQ1ODA3MV19
 -->
