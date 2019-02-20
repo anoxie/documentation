@@ -242,9 +242,30 @@ o.foo(); // 3
 (p.foo = o.foo)(); //2
 ```
 ### Softening Binding
-Il est possible de prévenir le défaut binding, sans recourir au hard binding, ce qui
+Il est possible de prévenir le défaut binding, sans recourir au hard binding, ce qui permet de conserver la souplesse des fonctions :
+```js
+if (!Function.prototype.softBind) {
+	Function.prototype.softBind = function(obj) {
+		var fn = this,
+			curried = [].slice.call( arguments, 1 ),
+			bound = function bound() {
+				return fn.apply(
+					(!this ||
+						(typeof window !== "undefined" &&
+							this === window) ||
+						(typeof global !== "undefined" &&
+							this === global)
+					) ? obj : this,
+					curried.concat.apply( curried, arguments )
+				);
+			};
+		bound.prototype = Object.create( fn.prototype );
+		return bound;
+	};
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0Mjk0NTA5LC0xOTgxMjI5MzE2LDE2OD
+eyJoaXN0b3J5IjpbNzY3MDk1NjM3LC0xOTgxMjI5MzE2LDE2OD
 k5MDM4NzUsNjk0MjU2Mzg3LDE3Njc3MjI1MTQsMTUyNDIwMTYy
 MCwtMjA1ODQ4Mjc4OCw0MDY2MzE0NDksLTIwMjQwMjY1MDAsLT
 ExMTM3OTMxOTMsLTQ0NzE3MDczLC02ODQ1NjI4MDQsLTEyMTM0
