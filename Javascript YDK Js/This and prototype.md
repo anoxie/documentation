@@ -281,10 +281,12 @@ funciton foo(){
 var obj = {
     a: 2
 };
-```
 
+foo.call(obj); //2
+```
+Concrètement le recours à => permet de désactiver les mécanismes de this, pour le rendre conforme à la sccope lexical.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzI4ODA3NCwxMzI3NjU5NDM5LDQzMz
+eyJoaXN0b3J5IjpbMTAxNTYwMDExOCwxMzI3NjU5NDM5LDQzMz
 Y0NzE0LDc2NzA5NTYzNywtMTk4MTIyOTMxNiwxNjg5OTAzODc1
 LDY5NDI1NjM4NywxNzY3NzIyNTE0LDE1MjQyMDE2MjAsLTIwNT
 g0ODI3ODgsNDA2NjMxNDQ5LC0yMDI0MDI2NTAwLC0xMTEzNzkz
