@@ -301,9 +301,9 @@ var myObj = new Object();
 myObj.key = value;
 ```
 
-Ces 2 formes sont identiques
+Ces 2 formes sont identiques, mais pour la forme avec constructeur il faut ajouter les propriétés une par une, contrairement à la déclaration littéral. Concrètement c'est la première forme qui est généralement utilisée.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTQ5MjMzOSw3NjkyNTQ4OTUsMTAxNT
+eyJoaXN0b3J5IjpbMjEzNDU5MDA5NSw3NjkyNTQ4OTUsMTAxNT
 YwMDExOCwxMzI3NjU5NDM5LDQzMzY0NzE0LDc2NzA5NTYzNywt
 MTk4MTIyOTMxNiwxNjg5OTAzODc1LDY5NDI1NjM4NywxNzY3Nz
 IyNTE0LDE1MjQyMDE2MjAsLTIwNTg0ODI3ODgsNDA2NjMxNDQ5
