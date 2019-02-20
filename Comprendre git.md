@@ -60,6 +60,8 @@ permet de récupérer les changements précédemment mis en stash sur la branch 
 ```bash
 git stash apply
 ```
+
+````
 permet de récupérer ce qui est stocké dans le stash sans le supprimer.
   
 ```bash
@@ -252,6 +254,7 @@ contribuer à des project openSource sur github
 
 [https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github/2433731-contribuez-a-des-projets-open-source)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwNjkwNTM4LDEwMTI0NDMyODIsLTE2OT
-gwODQ4MDAsMTkwODM2NjI5NSwtMzg3NTc2OTg0XX0=
+eyJoaXN0b3J5IjpbLTE4MTQxMDcyNTAsOTMwNjkwNTM4LDEwMT
+I0NDMyODIsLTE2OTgwODQ4MDAsMTkwODM2NjI5NSwtMzg3NTc2
+OTg0XX0=
 -->
