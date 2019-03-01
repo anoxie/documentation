@@ -20,8 +20,16 @@ La ligne sujet contient une description succincte des changements.
 - feat (feature)
 - fix (bug fix)
 - docs (documentation)
-- style (formatting, missing se
+- style (formatting, missing semi colons,...)
+- refactor
+- test (when adding missing tests)
+- chore (maintain)
+
+### \<scope>
+La scope peut être tout élement spécifiant l'emplacement du changement.
+
+<
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTEwNTMwXX0=
+eyJoaXN0b3J5IjpbLTE5MzY3NzI5MF19
 -->
