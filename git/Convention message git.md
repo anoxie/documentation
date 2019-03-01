@@ -14,7 +14,8 @@
 Les lignes ne doivent pas dépasser 100 signes.
 
 ## Ligne sujet
-La ligne sujet contient une description suc
+La ligne sujet contient une description succincte des changements.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4NTkyNTI2XX0=
+eyJoaXN0b3J5IjpbLTg0Mjg3NzM1XX0=
 -->
