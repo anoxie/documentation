@@ -28,8 +28,41 @@ La ligne sujet contient une description succincte des changements.
 ### \<scope>
 La scope peut être tout élement spécifiant l'emplacement du changement.
 
-<
+### \<subject>
 
+exemples :
+```bash
+feat($browser): onUrlChange event (popstate/hashchange/polling)
+
+Added new event to $browser:
+- forward popstate event if available
+- forward hashchange event if popstate not available
+- do polling when neither popstate nor hashchange available
+
+Breaks $browser.onHashChange, which was removed (use onUrlChange instead)
+```
+
+```bash
+feat($browser): onUrlChange event (popstate/hashchange/polling)
+
+Added new event to $browser:
+- forward popstate event if available
+- forward hashchange event if popstate not available
+- do polling when neither popstate nor hashchange available
+
+Breaks $browser.onHashChange, which was removed (use onUrlChange instead)
+```
+
+```bash
+feat($browser): onUrlChange event (popstate/hashchange/polling)
+
+Added new event to $browser:
+- forward popstate event if available
+- forward hashchange event if popstate not available
+- do polling when neither popstate nor hashchange available
+
+Breaks $browser.onHashChange, which was removed (use onUrlChange instead)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY3NzI5MF19
+eyJoaXN0b3J5IjpbMTk1NDA3MDU1Ml19
 -->
