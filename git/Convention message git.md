@@ -31,7 +31,7 @@ La scope peut être tout élement spécifiant l'emplacement du changement.
 ### \<subject>
 
 exemples :
-```bash
+```
 feat($browser): onUrlChange event (popstate/hashchange/polling)
 
 Added new event to $browser:
@@ -42,27 +42,25 @@ Added new event to $browser:
 Breaks $browser.onHashChange, which was removed (use onUrlChange instead)
 ```
 
-```bash
-feat($browser): onUrlChange event (popstate/hashchange/polling)
+```
+fix($compile): couple of unit tests for IE9
 
-Added new event to $browser:
-- forward popstate event if available
-- forward hashchange event if popstate not available
-- do polling when neither popstate nor hashchange available
+Older IEs serialize html uppercased, but IE9 does not...
+Would be better to expect case insensitive, unfortunately jasmine does
+not allow to user regexps for throw expectations.
 
-Breaks $browser.onHashChange, which was removed (use onUrlChange instead)
+Closes #392
+Breaks foo.bar api, foo.baz should be used instead
 ```
 
-```bash
-feat($browser): onUrlChange event (popstate/hashchange/polling)
+```
+feat(directive): ng:disabled, ng:checked, ng:multiple, ng:readonly, ng:selected
 
-Added new event to $browser:
-- forward popstate event if available
-- forward hashchange event if popstate not available
-- do polling when neither popstate nor hashchange available
+New directives for proper binding these attributes in older browsers (IE).
+Added coresponding description, live examples and e2e tests.
 
-Breaks $browser.onHashChange, which was removed (use onUrlChange instead)
+Closes #351
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDA3MDU1Ml19
+eyJoaXN0b3J5IjpbLTMzODYxNTE4XX0=
 -->
